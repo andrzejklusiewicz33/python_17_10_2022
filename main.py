@@ -342,7 +342,101 @@ print('siema')
 
 #15. Napisz program który będzie od uzytkownika przyjmowal nazwę pliku z kodem pythona.
 # Program ma wyświetlić wszystkie linie które nie są w całości komentarzami wraz z numerami tych linii w pliku
+#
+# #komentarz
+# print('siema to ja') #komentarz
+#                     #komentarz
 
-#komentarz
-print('siema to ja') #komentarz
-                    #komentarz
+# nazwa_pliku=input('podaj nazwę pliku:\n')
+# for linia in open(nazwa_pliku,encoding='utf-8'):
+#     if len(linia.strip())>0 and linia.strip()[0]!='#':
+#         print(linia.strip())
+#
+# nazwa_pliku=input('podaj nazwę pliku:\n')
+# for linia in open(nazwa_pliku,encoding='utf-8'):
+#     if  linia.strip()[0]!='#' and len(linia.strip())>0: #fuuuuu
+#         print(linia.strip())
+
+#przerwa do 13:00
+
+#listy, krotki, słowniki, zestawy
+#
+# lista=[]
+# lista=list()
+# lista=[1,2,3,4]
+# print(lista,type(lista))
+# lista.append(5)
+# lista.append(6)
+# for element in lista:
+#     print(element)
+
+#16. Napisz kod który umieści w liście 10 kolejnych potęg liczby 2.
+#Następnie przeiteruj po tej liście i każdy z jej elementów wyświetl na konsoli w osobnej linii.
+#
+# lista=[]
+# for p in range(1,11):
+#     lista.append(pow(2,p))
+# for e in lista:
+#     print(e)
+
+# lista1=[1,2,3,4]
+# lista2=lista1
+# lista1.clear()
+# print(lista1)
+# print(lista2)
+#
+# lista1=[1,2,3,4]
+# lista2=lista1.copy()
+# lista1.clear()
+# print(lista1)
+# print(lista2)
+
+# lista=[1,2,3,4]
+# print(lista)
+# print(*lista)
+#
+# def function(*args):
+#     pass
+
+
+# lista1=[1,2,3,4]
+# lista2=[5,6,7,8]
+# lista3=[lista1,lista2]
+# print(lista3)
+# lista3=[*lista1,*lista2]
+# print(lista3)
+# print(lista1+lista2)
+
+#
+# lista1=[1,2,3,4]
+# lista2=[5,6,7,8]
+# lista1.extend(lista2)
+# print(lista1)
+
+#17. Stwórz dwie listy. Każda z list ma zawierać 10 liczb losowych z zakresu 1-10.
+# Połącz te dwie listy do jednej i wyswietl na konsoli (extend albo *lista)
+#
+# import random
+# l1=[]
+# l2=[]
+# for x in range(10):
+#     l1.append(random.randint(1,10))
+#     l2.append(random.randint(1, 10))
+# print(l1)
+# print(l2)
+# l3=[*l1,*l2]
+# print(l3)
+# l1.extend(l2)
+# print(l1)
+
+#18. Korzystajac z petli stworz liste zawierajaca elementy same bedace listami.
+# Kazdy taki element ma zawierac numer potegi oraz wartosc tej potegi dla liczby 2.
+#lista niech zawiera 20 elementów
+
+lista=[
+    [1,2],
+    [2,4],
+    [3,8],
+    [4,16]
+]
+
