@@ -667,3 +667,51 @@
 #przerwa do 14:32
 
 #26. Wyświetl na konsoli linia po linii dane z pliku dane.csv ale posortowane  malejąco wg. bmi
+#
+# lista=[e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]
+# for l in lista: l.append( round(float(l[4])/pow(float(l[3]),2),2) )
+# lista.sort(key=lambda e:e[5],reverse=True)
+# for l in lista:
+#     print(l)
+#
+# lista=[1,2,'koza',3,4]
+# lista.sort()
+
+#
+# lista=['1','2','koza','3','4']
+# lista.sort()
+# print(lista)
+#
+# lista=[1,2,3,4]
+# if 2 in lista:
+#     print('jest')
+# else:
+# #     print('nie ma')
+#
+# linia='siała baba mak'
+# if 'bab' in linia:
+#     print('jest w stringu')
+# else:
+#     print('nie ma w stringu')
+
+# lista=['siała','baba','mak']
+# if 'bab' in lista:
+#     print('jest w liście')
+# else:
+#     print('nie ma w liście')
+#
+# lista=['siała','baba','mak']
+# for e in lista:
+#     if 'bab' in e:
+#         print(f'jest fraza w {e}')
+#
+# import os
+# os.mkdir('d:\\nowy')
+#
+# import os
+# for e in os.walk('e:\\'):
+#     print(e)
+
+#27.Napisz wyszukiwarkę plików która przyjmie od użytkownika szukaną frazę i katalog startowy.
+# Wyszukiwarka ma wyswietlić wszystkie pliki i katalogi zawierajace w nazwie szukaną frazę - wraz ze ścieżkami.
+# Wyszukiwarka ma być nieczuła na wielkość liter
