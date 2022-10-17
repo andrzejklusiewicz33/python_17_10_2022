@@ -185,3 +185,25 @@
   # Symulator ma dla każdego miesiąca lokaty wypisać który to miesiąc
   # oraz ile mamy aktualnie zgromadzone na koncie po doliczeniu odsetek.
   # Kapitalizacja comiesięczna
+#
+# hajs=1000000
+# oprocentowanie=0.03
+# ilosc_miesiecy=24
+# for m in range(1,ilosc_miesiecy+1):
+#     hajs=round(hajs+(hajs*oprocentowanie/12),2)
+#     print(m,hajs)
+
+# while True:
+#     pass
+#
+# while 1==1:
+#     print("1==1")
+#
+# x=1
+# while x<1000:
+#     x=x*2
+#     print(x)
+
+#8. Napisz korzystajac z petli while program który wyświetli
+#   10 kolejnych potęg liczby 2.
+
