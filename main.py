@@ -58,3 +58,9 @@
 # wyliczy i wypisze BMI.
 
 #print(pow(1.76,2))
+#
+# wzrost=float(input('podaj wzrost w metrach:\n'))
+# masa=float(input('podaj masę w kilogramach:\n'))
+# bmi=round(masa/pow(wzrost,2),2)
+# print(f"bmi={bmi}")
+
