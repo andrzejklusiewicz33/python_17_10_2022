@@ -492,3 +492,18 @@ print('siema')
 
 #20. Korzystając z list składanych wygeneruj listę 10 elementow której każdy element również będzie listą.
 # Pierwszy element tej podlisty to numer potegi, a drugi to wartosc tej potegi dla liczby 2
+#
+# lista=[]
+# for x in range(1,11):
+#     lista.append([x,pow(2,x)])
+# print(lista)
+#
+# lista=[ [x,pow(2,x)] for x in range(1,11)]
+# print(lista)
+#
+# linia='1;Andrzej;Klusiewicz;1.76;72\n'
+# lista=linia.strip().split(';')
+# print(lista)
+# print(lista[2])
+
+#21. Napisz program który z pliku dane.csv wyświetli powiekszone imiona i nazwiska oraz wzrost i masę
