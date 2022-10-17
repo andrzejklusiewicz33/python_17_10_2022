@@ -260,3 +260,30 @@
 
 #11. Napisz program który przyjmie od użyszkodnika ciąg tekstowy a następnie usunie z niego znaki ,.!?
 # i wyświetli powiększony do dużych liter na konsoli
+
+# odebrane=input('podaj tekst:\n')
+# print(odebrane.upper().replace(',','').replace('.','').replace('!','').replace('?',''))
+
+# tekst="siała BABA mak, dostała 10 lat bo nie płaciła VAT"
+#
+# if 'baba' in tekst.lower():
+#     print('jest baba')
+# else:
+#     print('nie ma baby')
+#
+# plik=open('tadzio.txt',encoding='utf-8')
+# for linia in plik:
+#     print(linia)
+#
+# for linia in open('tadzio.txt',encoding='utf-8'):
+#     print(linia)
+#
+# with open('tadzio.txt',encoding='utf-8') as plik:
+#     for linia in plik:
+#         print(linia)
+
+#
+# for linia in open('tadzio.txt',encoding='utf-8'):
+#     print(len(linia.strip()),linia.strip())
+
+#12. Napisz program który wyświetli na konsoli niepuste linie z pliku tekstowego którego nazwę poda użytkownik
