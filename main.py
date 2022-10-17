@@ -715,3 +715,101 @@
 #27.Napisz wyszukiwarkę plików która przyjmie od użytkownika szukaną frazę i katalog startowy.
 # Wyszukiwarka ma wyswietlić wszystkie pliki i katalogi zawierajace w nazwie szukaną frazę - wraz ze ścieżkami.
 # Wyszukiwarka ma być nieczuła na wielkość liter
+#
+# szukane='oracle'
+# import os
+# for e in os.walk('e:\\'):
+#     katalogi=e[1]
+#     for k in katalogi:
+#         if szukane.lower() in k.lower():
+#             print(os.path.join(e[0],k))
+#     pliki=e[2]
+#     for p in pliki:
+#         if szukane.lower() in p.lower():
+#             print(os.path.join(e[0],p))
+#
+# szukane='oracle'
+# import os
+# for e in os.walk('e:\\'):
+#     for k in e[1]:
+#         if szukane.lower() in k.lower():
+#             print(os.path.join(e[0],k))
+#     for p in e[2]:
+#         if szukane.lower() in p.lower():
+#             print(os.path.join(e[0],p))
+
+
+#
+# szukane=input('podaj czego szukasz:\n')
+# sciezka=input('podaj katalog startowy:\n')
+# import os
+# for e in os.walk(sciezka):
+#     for k in e[1]:
+#         if szukane.lower() in k.lower():
+#             print(os.path.join(e[0],k))
+#     for p in e[2]:
+#         if szukane.lower() in p.lower():
+#             print(os.path.join(e[0],p))
+
+#
+# krotka=(1,2,3,4)
+# lista=[1,2,3,4]
+# krotka[3]='podmieniono'
+# lista[3]='podmieniono'
+# print(krotka)
+# print(lista)
+
+# krotka=(1,5,2,3,5,4)
+# print(krotka[2])
+# print(krotka[2:6])
+# if 2 in krotka:
+#     print('jest')
+# else:
+#     print('nie ma')
+# print(len(krotka))
+#
+# for k in krotka:
+#     print(k)
+#
+# posortowane=sorted(krotka)
+# print(posortowane)
+
+#
+# krotka=(1,5,2,3,5,4)
+# lista=list(krotka)
+# lista.sort()
+# krotka=tuple(lista)
+# print(krotka)
+#
+# krotka=(1,5,2,3,5,4)
+
+# def funkcja(wejscie):
+#     wejscie='zmienione'
+#
+# zmienna='xxxx'
+# funkcja(zmienna)
+# print(zmienna)
+#
+# def funkcja(krota):
+#     lista=list(krota)
+#     lista.clear()
+#     krota=tuple(lista)
+#
+# krotka=(1,2,3,4)
+# funkcja(krotka)
+# print(krotka)
+
+
+#krotka=(1,2,3,4)
+# for e in reversed(krotka):
+#     print(e)
+#
+# krotka=(1,2,3,4)
+# print(krotka[-2])
+
+# krotka=(1,2,3,4)
+# print(*krotka)
+
+#28. Stwórz dwie krotki. Jedna ma zawierać 10 losowych liczb zakresu 1-10,
+# druga 10 losowych liczb zakresu 11-20. Stwórz trzecią krotkę która ma zawierać dane z obu krotek.
+# Trzecią krotkę wypisz na konsolis
