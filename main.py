@@ -651,3 +651,19 @@
 
 #25.  Wczytaj do listy kolejne wiersze z pliku dane.csv.
 # Dane posortuj po nazwiskach i wyswietl linia po linii na konsoli.
+#
+# from operator import itemgetter
+# lista=[e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]
+# lista.sort(key=itemgetter(2))
+# for e in lista:
+#     print(e)
+
+#
+# lista=[e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]
+# lista.sort(key=lambda e:e[2])
+# for e in lista:
+#     print(e)
+
+#przerwa do 14:32
+
+#26. Wyświetl na konsoli linia po linii dane z pliku dane.csv ale posortowane  malejąco wg. bmi
