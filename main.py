@@ -537,3 +537,48 @@
 # lista=[e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]
 # for x in lista:
 #     print(x,type(x[3]))
+#
+# for linia in [e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]:
+#     wzrost=float(linia[3])
+#     masa=float(linia[4])
+#     bmi=round(masa/pow(wzrost,2),2)
+#     print(*linia,bmi)
+
+#
+# for linia in [e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]:
+#     bmi=round(float(linia[4])/pow(float(linia[3]),2),2)
+#     print(*linia,bmi)
+
+#
+# for linia in [e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]:
+#     print(*linia,round(float(linia[4])/pow(float(linia[3]),2),2))
+
+
+#for linia in [e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]: print(*linia,round(float(linia[4])/pow(float(linia[3]),2),2))
+
+# lista=[6,5,4,1,2,5,8,9]
+# posortowane=sorted(lista)
+# print(lista)
+# print(posortowane)
+
+# lista=[6,5,4,1,2,5,8,9]
+# lista.insert(6,8)
+# lista.sort()
+# print(lista)
+
+#
+# lista=[6,5,4,1,2,5,8,9]
+# lista.sort()
+# lista.reverse()
+# print(lista)
+
+#
+# lista=[6,5,4,1,2,5,8,9]
+# lista.sort(reverse=True)
+# print(lista)
+
+# lista=[6,5,4,1,2,5,8,9]
+# posortowane=sorted(lista,reverse=True)
+# print(posortowane)
+
+#24. Wygeneruj listę 10 elementów o losowej wartości liczbowej, posortuj listę i wyświetl jej zawartość linia po linii
