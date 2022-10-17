@@ -812,4 +812,16 @@
 
 #28. Stwórz dwie krotki. Jedna ma zawierać 10 losowych liczb zakresu 1-10,
 # druga 10 losowych liczb zakresu 11-20. Stwórz trzecią krotkę która ma zawierać dane z obu krotek.
-# Trzecią krotkę wypisz na konsolis
+# Trzecią krotkę wypisz na konsoli
+#
+# import random
+# krotka1=tuple([random.randint(1,10) for e in range(10)])
+# krotka2=tuple([random.randint(11,20) for e in range(10)])
+# print(krotka1,type(krotka1))
+# print(krotka2,type(krotka2))
+# krotka3=(*krotka1,*krotka2)
+# print(krotka3)
+# krotka3=krotka1+krotka2
+# print(krotka3)
+
+#28. Napisz kod ktora wyświetli w postaci listy krotek zawartość pliku dane.csv
