@@ -486,4 +486,9 @@ print('siema')
 # print(lista)
 
 #19. Korzystając z list składanych wygeneruj listę zawierajaca 10 kolejnych poteg 2
+#
+# lista=[ pow(2,e) for e in range(1,11)  ]
+# print(lista)
 
+#20. Korzystając z list składanych wygeneruj listę 10 elementow której każdy element również będzie listą.
+# Pierwszy element tej podlisty to numer potegi, a drugi to wartosc tej potegi dla liczby 2
