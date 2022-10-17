@@ -853,3 +853,21 @@
 
 #29. Wygeneruj dwa zestawy, dodaj do nich po 20 (w przypadku duplikatów lista może być mniejsza niż 20 elementów)
 # losowych liczb z zakresu 1-40. Wyswietl ich sumę, różnicę i część wspólną
+#
+# z1={1,2,3,4}
+# z1.add(5)
+# print(z1)
+
+# import random
+# z1=set([random.randint(1,40) for e in range(20)])
+# #print(z1,type(z1),len(z1))
+# z2=set([random.randint(1,40) for e in range(20)])
+# print(z1)
+# print(z2)
+# print("suma=",z1.union(z2))
+# print('roznica z1-z2=',z1.difference(z2))
+# print('roznica z2-z1=',z2.difference(z1))
+# print('czesc wspolna=',z1.intersection(z2))
+
+#30. Zduplikuj jeden z wierszy w pliku dane.csv.
+# Napisz kod który zwróci do postaci listy krotek zawartość tego pliku z danymi bez powtórek.
