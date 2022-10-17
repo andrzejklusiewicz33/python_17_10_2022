@@ -892,3 +892,14 @@
 # dane z pliku dane.csv wzbogacone o obliczone BMI, bez duplikatów i rozwiązując problem  podania
 # przecinka w miejsce kropki we wzroście i masie oraz problem z pustymi wierszami.
 
+wynik=[e.strip().replace(',','.').split(';') for e in open('dane.csv') if len(e.strip())>0]
+wynik2=[]
+for w in wynik:
+    bmi=round(float(w[4])/pow(float(w[3]),2),2)
+    w.append(bmi)
+    wynik2.append(tuple(w))
+
+wynik2=list(set(wynik2))
+for w in wynik2:
+    print(w)
+
