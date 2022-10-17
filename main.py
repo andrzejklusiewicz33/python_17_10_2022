@@ -144,3 +144,20 @@
 # print('koniec')
 
 #5. Wyświetl 20 kolejnych potęg liczby 2
+#
+# for p in range(1,21):
+#     print(f"2^{p}={pow(2,p)}")
+
+
+#for p in range(1,21): print(f"2^{p}={pow(2,p)}")
+#
+# for p in range(1,21):
+#     print(f"2^{p}={pow(2,p)}")
+#     if 1==1:
+#         pass
+
+
+#6. Wydrukuj liczby w zakresie 1-100 wypisujac obok czy dana liczba jest
+#parzysta czy nieparzysta
+
+print(11%2)
