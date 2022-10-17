@@ -228,5 +228,35 @@
 #10. Napisz program który będzie dodawał kolejne losowe wartości z zakresu
 #od 1 do 10 do zmiennej suma, tak dlugo az suma nie osiagnie wartosci wiekszej od wartosci podanej przez uzytkownika
 
-import random
-print(random.randint(1,100))
+# import random
+# print(random.randint(1,100))
+
+# import random
+# max=int(input('podaj max zakres:\n'))
+# suma=0
+# while suma<=max:
+#     suma+=random.randint(1,10)
+#     print(f'suma={suma}')
+
+
+#przerwa do 11:41
+#
+# tekst="\n             siała BABA mak, dostała 10 lat bo nie płaciła VAT       "
+# print(tekst.upper())
+# print(tekst.lower())
+# print(tekst.title())
+# print(tekst.replace('a','X'))
+# print(tekst.replace('a','X').replace('A','X'))
+# print(tekst.lower().replace('a','X'))
+# print(len(tekst))
+# lista=[1,2,3]
+# print(len(lista))
+# print(tekst.count('a'))
+# print(tekst.lower().count('a'))
+# print(tekst.strip())
+# print(tekst.split())
+# linia='1;Andrzej;Klusiewicz'
+# print(linia.split(';'))
+
+#11. Napisz program który przyjmie od użyszkodnika ciąg tekstowy a następnie usunie z niego znaki ,.!?
+# i wyświetli powiększony do dużych liter na konsoli
