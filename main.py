@@ -64,3 +64,25 @@
 # bmi=round(masa/pow(wzrost,2),2)
 # print(f"bmi={bmi}")
 
+#przerwa do 10:31
+
+
+# x=-9
+# if x>0:
+#     print('x jest większe od 0')
+#     print('x jest większe od 0')
+#     print('x jest większe od 0')
+# print('koniec')
+#
+# x=9
+# if x==1:
+#     print('x jest równe jeden')
+# elif x==2:
+#     print('x jest równe dwa')
+# elif x==3:
+#     print('x jest równe trzy')
+# else:
+#     print('poza zakresem')
+
+#3. Niech użytkownik poda jakąś liczbę. Jeśli poda dodatnią to chcemy wyświetlić tę wartość z informacją "wartość dodatnia",
+# jeśli zero to wyświetlamy z informacją "równe zero", jeśli ujemna to wyświetlamy "wartość ujemna".
