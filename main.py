@@ -582,3 +582,72 @@
 # print(posortowane)
 
 #24. Wygeneruj listę 10 elementów o losowej wartości liczbowej, posortuj listę i wyświetl jej zawartość linia po linii
+#
+# import random
+# lista=[random.randint(1,100) for e in range(10)]
+# lista.sort()
+# for e in lista:
+#     print(e)
+#
+# lista=[
+#     [2,'A'],
+#     [1,'C'],
+#     [3,'B']
+# ]
+# print(lista)
+# lista.sort()
+# print(lista)
+#
+# from operator import itemgetter
+# lista=[
+#     [2,'A'],
+#     [1,'C'],
+#     [3,'B']
+# ]
+# print(lista)
+# lista.sort(key=itemgetter(1))
+# print(lista)
+
+#
+# from operator import itemgetter
+# lista=[
+#     [2,'A'],
+#     [1,'C'],
+#     [3,'B']
+# ]
+# print(lista)
+# lista.sort(key=itemgetter(1),reverse=True)
+# print(lista)
+
+#
+# from operator import itemgetter
+# lista=[
+#     [2,'A'],
+#     [1,'C'],
+#     [3,'B']
+# ]
+# print(lista)
+# lista.sort(key=lambda e:e[1])
+# print(lista)
+#
+# class Osoba:
+#     imie=None
+#     nazwisko=None
+#     def __init__(self,imie,nazwisko):
+#         self.imie=imie
+#         self.nazwisko=nazwisko
+#     def __str__(self):
+#         return str(self.__dict__)
+#
+# o1=Osoba('Andrzej','Klusiewicz')
+# o2=Osoba('Natalia','Gmurczyk')
+# o3=Osoba('Laura','Dawidowska')
+# o4=Osoba('Monika','Bożko')
+#
+# lista=[o1,o2,o3,o4]
+# lista.sort(key=lambda o:o.nazwisko)
+# for e in lista:
+#     print(e)
+
+#25.  Wczytaj do listy kolejne wiersze z pliku dane.csv.
+# Dane posortuj po nazwiskach i wyswietl linia po linii na konsoli.
