@@ -306,7 +306,7 @@
 
 
 # print(  open(input('podaj nazwę pliku:\n'),encoding='utf-8').read().lower().count( input('podaj szukane:\n').lower()  )  )
-
+print('siema')
 #
 # szukane=input('podaj szukane:\n')
 # nazwa_pliku=input('podaj nazwę pliku:\n')
@@ -326,3 +326,23 @@
  #  linie w których znalazła poszukiwaną frazę wraz z numerem linii. Wyszukiwarka
  #  po  odebraniu danych od uzyszkodnika powinna wyswietlic jakiej frazy
  #  i w  jakim pliku szuka. Wyszukiwarka powinna być nieczula na wielkosc liter.
+#
+# szukane=input('podaj poszukiwaną frazę:\n')
+# nazwa_pliku=input('podaj nazwę pliku:\n')
+# x=0
+# for linia in open(nazwa_pliku,encoding='utf-8'):
+#      x+=1
+#      if szukane.lower() in linia.lower():
+#         print(x,linia.strip())
+#
+# tekst="siała baba mak, dostała 10 lat bo nie płaciła VAT"
+# print(tekst[0])
+# print(tekst[0:10])
+# print(tekst[0:10:2])
+
+#15. Napisz program który będzie od uzytkownika przyjmowal nazwę pliku z kodem pythona.
+# Program ma wyświetlić wszystkie linie które nie są w całości komentarzami wraz z numerami tych linii w pliku
+
+#komentarz
+print('siema to ja') #komentarz
+                    #komentarz
