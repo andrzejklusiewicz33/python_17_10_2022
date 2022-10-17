@@ -98,8 +98,49 @@
 
 #4. Rozbuduj swój program do bmi w taki sposob by poza wyswietleniem obliczonego bmi
 #wyświetlił nam również odpowiedni opis wg skali z Wikipedii.
+#
+# wzrost=float(input('podaj wzrost w metrach:\n'))
+# masa=float(input('podaj masę w kilogramach:\n'))
+# bmi=round(masa/pow(wzrost,2),2)
+# print(f"bmi={bmi}")
+# if bmi<16:
+#     print('wyglodzenie')
+# elif bmi<17:
+#     print('wychudzenie')
+# elif bmi<18.5:
+#     print('niedowaga')
+# elif bmi<25:
+#     print('pożądana masa ciała')
+# elif bmi<30:
+#     print('nadwaga')
+# elif bmi<35:
+#     print('otyłość 1 stopnia')
+# elif bmi<40:
+#     print('otyłość 2 stopnia')
+# else:
+#     print('otyłość 3 stopnia')
+#
+# for x in range(10):
+#     print(x)
 
-wzrost=float(input('podaj wzrost w metrach:\n'))
-masa=float(input('podaj masę w kilogramach:\n'))
-bmi=round(masa/pow(wzrost,2),2)
-print(f"bmi={bmi}")
+#
+# for x in range(1,11):
+#     print(x)
+#
+
+
+# for x in range(1,11,2):
+#     print(x)
+
+
+#
+# for x in range(1,11):
+#     print(x)
+
+#help(range)
+#
+# for x in range(1,11):
+#     print(x)
+# print('koniec')
+
+#5. Wyświetl 20 kolejnych potęg liczby 2
