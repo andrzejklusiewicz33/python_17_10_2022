@@ -216,3 +216,17 @@
 
 #9. Napisz pętlę while która będzie wyświetlała kolejne potęgi liczby 2 aż wartość  potęgi
 # nie przekroczy wartości podanej przez użytkownika
+#
+# max=int(input('podaj maksymalną wartość:\n'))
+# potega=0
+# np=0
+# while potega<=max:
+#     np+=1
+#     potega=pow(2,np)
+#     print(potega)
+
+#10. Napisz program który będzie dodawał kolejne losowe wartości z zakresu
+#od 1 do 10 do zmiennej suma, tak dlugo az suma nie osiagnie wartosci wiekszej od wartosci podanej przez uzytkownika
+
+import random
+print(random.randint(1,100))
