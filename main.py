@@ -433,10 +433,57 @@ print('siema')
 # Kazdy taki element ma zawierac numer potegi oraz wartosc tej potegi dla liczby 2.
 #lista niech zawiera 20 elementów
 
-lista=[
-    [1,2],
-    [2,4],
-    [3,8],
-    [4,16]
-]
+# lista=[
+#     [1,2],
+#     [2,4],
+#     [3,8],
+#     [4,16]
+# ]
+#
+# lista=[]
+# for p in range(1,21):
+#     lista.append([p,pow(2,p)])
+# for e in lista:
+#     print(e)
+
+
+# lista=[]
+# for x in range(1,11):
+#     lista.append(x)
+# for e in lista:
+#     print(e)
+#
+# lista=[e for e in range(1,11)]
+# print(lista)
+#
+# for l in [e for e in range(1,11)]:
+#     print(l)
+#
+# lista=[]
+# for x in range(1,11):
+#     lista.append(x*10)
+# print(lista)
+#
+# lista=[e*10 for e in range(1,11)]
+# print(lista)
+#
+# lista=[]
+# for x in range(1,101):
+#     if x%2==0:
+#         lista.append(x)
+# print(lista)
+#
+# lista=[e for e in range(1,101) if e%2==0]
+# print(lista)
+#
+# lista=[e for e in range(1,101)]
+# druga=[e*100 for e in lista]
+# print(lista)
+# print(druga)
+#
+# import random
+# lista=[random.randint(1,10) for e in range(100)]
+# print(lista)
+
+#19. Korzystając z list składanych wygeneruj listę zawierajaca 10 kolejnych poteg 2
 
