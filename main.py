@@ -891,15 +891,55 @@
 #31. Przetwórz plik dane.csv w taki sposób by w efekcie umieścić w pliku output.csv
 # dane z pliku dane.csv wzbogacone o obliczone BMI, bez duplikatów i rozwiązując problem  podania
 # przecinka w miejsce kropki we wzroście i masie oraz problem z pustymi wierszami.
+#
+# wynik=[e.strip().replace(',','.').split(';') for e in open('dane.csv') if len(e.strip())>0]
+# wynik2=[]
+# for w in wynik:
+#     bmi=round(float(w[4])/pow(float(w[3]),2),2)
+#     w.append(bmi)
+#     wynik2.append(tuple(w))
+#
+# wynik2=list(set(wynik2))
+# for w in wynik2:
+#     print(w)
 
-wynik=[e.strip().replace(',','.').split(';') for e in open('dane.csv') if len(e.strip())>0]
-wynik2=[]
-for w in wynik:
-    bmi=round(float(w[4])/pow(float(w[3]),2),2)
-    w.append(bmi)
-    wynik2.append(tuple(w))
+#
+# linia="1;Andrzej;Klusiewicz"
+# lista=linia.split(';')
+# print(lista)
+# linia_nowa=";".join(lista)
+# print(linia_nowa)
+#
+# lista=[1,'Andrzej','Klusiewicz']
+# lista2=[]
+# for l in lista:
+#     lista2.append(str(l))
+# print(";".join(lista2))
 
-wynik2=list(set(wynik2))
-for w in wynik2:
-    print(w)
+# slownik=dict()
+# slownik['klucz1']=5
+# slownik['klucz2']=[1,2,3,4,5]
+# print(slownik['klucz2'])
+# for k in slownik.keys():
+#     print(k,slownik[k])
+#
+# for k in slownik:
+#     print(k,slownik[k])
+#
+# for v in slownik.values():
+#     print(v)
+#
+# if 'klucz2' in slownik:
+#     print('mamy taki klucz')
+# else:
+#     print('nie mamy takiego klucza')
+#
+# print(slownik['nieistniejacy_klucz'])
 
+#32. Stwórz plik ustawienia.conf i umieść w nim poniższe dane
+# encoding=utf-8
+# timezone=-2
+# color=black
+# Następnie wczytaj dane do słownika w ten sposób by pierwsza kolumna stanowila klucze a druga przypisane do nich wartości
+#. Przeiteruj po słowniku i wypisz klucze oraz przypisane do nich wartości
+#slownik['encoding']
