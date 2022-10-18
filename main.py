@@ -974,7 +974,12 @@
 #       dla ilości wystąpień. Jeśli takie słowo pojawia się już w kluczach słownika to trzeba zwiększyc wartośc o 1
 #    c) Przepakuj dane ze słownika do listy i posortuj.
 #
-# Tadeusz
-# Tadeusz,
-# Tadeusz.
-# Tadeusz!
+
+nazwa_pliku='tadzio.txt'
+calosc=open(nazwa_pliku,encoding='utf-8').read().lower()
+niechciane=[',','.','!','?','(',')','…',';',':','/','-']
+for n in niechciane:
+    calosc=calosc.replace(n,'')
+slowa=calosc.split()
+print(slowa)
+slownik=dict()
