@@ -1005,17 +1005,35 @@
 
 #fuuuu rozwiązanie - tak nie robimy - to przyklad jak mozna to schrzanić
 
+#
+# import time
+# poczatek=time.time()
+# nazwa_pliku='tadzio.txt'
+# calosc=open(nazwa_pliku,encoding='utf-8').read().lower()
+# niechciane=[',','.','!','?','(',')','…',';',':','/','-']
+# for n in niechciane:
+#     calosc=calosc.replace(n,'')
+# slownik=dict()
+# slowa=calosc.split()
+# for s in slowa:
+#     print(s,slowa.count(s))
+# koniec=time.time()
+# print(f'czas trwania to: {koniec-poczatek}s')
 
-import time
-poczatek=time.time()
-nazwa_pliku='tadzio.txt'
-calosc=open(nazwa_pliku,encoding='utf-8').read().lower()
-niechciane=[',','.','!','?','(',')','…',';',':','/','-']
-for n in niechciane:
-    calosc=calosc.replace(n,'')
-slownik=dict()
-slowa=calosc.split()
-for s in slowa:
-    print(s,slowa.count(s))
-koniec=time.time()
-print(f'czas trwania to: {koniec-poczatek}s')
+#
+# import time
+# poczatek=time.time()
+# nazwa_pliku='tadzio.txt'
+# calosc=open(nazwa_pliku,encoding='utf-8').read().lower()
+# niechciane=[',','.','!','?','(',')','…',';',':','/','-']
+# for n in niechciane: calosc=calosc.replace(n,'')
+# slownik=dict()
+# for s in calosc.split():
+#     if s in slownik:slownik[s]+=1
+#     else: slownik[s]=1
+# koniec=time.time()
+# for w in sorted([ (k,slownik[k]) for k in slownik ],key=lambda e:e[1],reverse=True):
+#     print(w)
+# print(f'czas trwania to: {koniec-poczatek}s')
+
+
