@@ -1569,3 +1569,54 @@
 # Dodaj funkcję "powieksz" i "podziel" które mają zwracać otrzymane przez argument dane odpowiednio po powiększeniu
 # i podzieleniu tekstu na słowa. Wywołaj funkcję "parse" przekazując do niej ciąg tekstowy składający
 # się z więcej niż 1 słowa oraz funkcje "powieksz" i "podziel"
+
+# def powieksz(tekst):
+#     return tekst.upper()
+#
+# def podziel(tekst):
+#     return tekst.split()
+#
+# def parse(tekst,*funcs):
+#     for f in funcs:
+#         tekst=f(tekst)
+#     print(tekst)
+#
+# parse('siała baba mak',powieksz,podziel)
+#
+# parse('siała baba mak',lambda x:x.upper(),lambda x:x.split())
+#
+# def zpomoca(param):
+#     '''treść pomocy
+#     param musi być tekstem'''
+#     pass
+#
+# help(zpomoca)
+
+#
+# def zpomoca(param:str):
+#     '''treść pomocy
+#     param musi być tekstem'''
+#     if type(param) is not str:
+#         raise Exception('przyjmuję tekst!')
+
+# help(zpomoca)
+#
+# fun(String xxx)
+
+#zpomoca(1234)
+#zpomoca('dupa')
+#
+#
+# def zewnetrzna():
+#     def wewnetrzna():
+#         print('siema, jestem funkcją wewnętrzną')
+#     return wewnetrzna
+#
+# f=zewnetrzna()
+# f()
+
+#53. Stwórz funcję która będzie posiadała dwie funkcje wewnętrzne.
+# Jedna z tych funkcji ma powiekszac i zwracac otrzymany ciag znakow, druga pomniejszac i zwracac otrzymany ciąg znaków.
+# Funkcja zewnętrzna ma zwracać funkcję powiększającą gdy zostanie jej przez argument przekazana wartosc 1 i
+# funkcję pomniejszającą gdy otrzyma wartość 2. Odbierz obiekt funkcji wewnętrznej poprzez wywołanie funkcji zewnętrznej
+# i zastosuj otrzymaną funkcję na ciągu tekstowym.
