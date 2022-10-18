@@ -1620,3 +1620,130 @@
 # Funkcja zewnętrzna ma zwracać funkcję powiększającą gdy zostanie jej przez argument przekazana wartosc 1 i
 # funkcję pomniejszającą gdy otrzyma wartość 2. Odbierz obiekt funkcji wewnętrznej poprzez wywołanie funkcji zewnętrznej
 # i zastosuj otrzymaną funkcję na ciągu tekstowym.
+
+#
+# def oddaj_funkcje(x):
+#     def powieksz(tekst):
+#         return tekst.upper()
+#     def pomniejsz(tekst):
+#         return tekst.lower()
+#
+#     if x==1:
+#         return powieksz
+#     elif x==2:
+#         return pomniejsz
+#     else:
+#         raise NotImplementedError()
+#
+# funkcja=oddaj_funkcje(1)
+# print(funkcja('siała BABA mak'))
+# funkcja=oddaj_funkcje(2)
+# print(funkcja('siała BABA mak'))
+
+# funkcja=oddaj_funkcje(3)
+# print(funkcja('siała BABA mak'))
+
+#przerwa do 14:24
+#
+# class Whatever{
+#     public static void main(String args[]){
+#         System.out.println('dupa');
+#     }
+# }
+#
+# print('dupa')
+#
+# def dekorator(fun):
+#     def wewnetrzna():
+#         print('dekorator!')
+#         fun()
+#     return wewnetrzna
+#
+# def funkcja():
+#     print('hello...')
+#
+# fun=dekorator(funkcja)
+# fun()
+
+#@dekorator
+# def funkcja():
+#     print('hello...')
+
+#funkcja()
+
+#
+# def opakowanie(fun):
+#     def wewnetrzna():
+#         print('dekorator!')
+#         fun()
+#     return wewnetrzna
+#
+# @opakowanie
+# def funkcja():
+#     print('hello...')
+#
+# funkcja()
+
+# fun=dekorator(funkcja)
+# fun()
+
+
+# def opakowanie(fun):
+#     def wewnetrzna(*args,**kwargs):
+#         print('dekorator!')
+#         fun(*args,**kwargs)
+#     return wewnetrzna
+#
+# @opakowanie
+# def funkcja(imie):
+#     print(f'hello {imie}')
+#
+# @opakowanie
+# def funkcja2(imie,nazwisko):
+#     print(f'hello {imie} {nazwisko}')
+#
+# @opakowanie
+# def funkcja3():
+#     print('hello!')
+#
+# funkcja('Andrzej')
+# funkcja2('Andrzej','Klusiewicz')
+# funkcja3()
+
+# def opakowanie(fun):
+#     def wewnetrzna(*args,**kwargs):
+#         print('dekorator!')
+#         return fun(*args,**kwargs)
+#     return wewnetrzna
+#
+# @opakowanie
+# def oddaj_koze():
+#     return "koza"
+# print(oddaj_koze())
+#
+# fun=opakowanie(oddaj_koze)
+# print(fun())
+#
+# def opakowanie(fun):
+#     def wewnetrzna(*args,**kwargs):
+#         print('sprawdzenie czasu przed')
+#         z= fun(*args,**kwargs)
+#         print('sprawdzenie czasu po')
+#         print('wyświetlecnie czasu trwania naszej dekorowanej funkcji')
+#         return z
+#     return wewnetrzna
+#
+# @opakowanie
+# def oddaj_koze():
+#     return "koza"
+# print(oddaj_koze())
+
+#54. Stwórz funkcję której zadaniem będzie poczekanie 3 sekundy i wypisanie na konsoli komunikatu.
+# Dodaj dekorator który zliczy czas wykonywania tej funkcji. Pobranie aktualnego czasu to: "time.time()",
+# wstrzymanie na 3 sekundy: "time.sleep(3)"
+#
+# import time
+# poczatek=time.time()
+# time.sleep(2)
+# koniec=time.time()
+# print(f'czas: {koniec-poczatek}s')
