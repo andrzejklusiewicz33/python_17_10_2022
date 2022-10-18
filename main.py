@@ -1449,3 +1449,12 @@
 # print(max(lista))
 # print(min(lista))
 # print(sum(lista)/len(lista))
+
+# def suma_args(*args):
+#     print(sum(args))
+#
+# suma_args(1,5,6,3,2)
+
+#47. Stwórz funkcję która przyjmie nieokreśloną liczbę elementów przez argument, a następnie wypisze
+# na konsoli ilość otrzymanych elementów. Poniżej informacji o ilości otrzymanych elementów wyświetl w osobnych
+# liniach każdy argument oraz jego typ.
