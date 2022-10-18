@@ -1243,3 +1243,61 @@
 
 #41. Napisz funkcję która przyjmie przez argumenty kwotę lokaty, oprocentowanie w skali roku, ilosc miesięcy.
 # Funkcja ma zwrócić zarobek na lokacie o podanych parametrach
+#
+# def lokata(kwota,oprocentowanie,ilosc_miesiecy):
+#     poczatkowo=kwota
+#     for m in range(1,ilosc_miesiecy+1):
+#         kwota=kwota+(kwota*oprocentowanie/12)
+#     return round(kwota-poczatkowo,2)
+#
+# x=lokata(1000000,0.03,24)
+# print(x)
+
+# import time
+# def daj_dane():
+#     wynik=[]
+#     for x in range(1,11):
+#         time.sleep(1)
+#         wynik.append(f'element numer {x}')
+#     return wynik
+#
+# for dd in daj_dane():
+#     print(dd)
+
+#
+# import time
+# def daj_dane():
+#     for x in range(1,11):
+#         time.sleep(1)
+#         yield f'element numer {x}'
+#
+# for dd in daj_dane():
+#     print(dd)
+
+
+# import time
+# def daj_dane():
+#     x=0
+#     while True:
+#         x+=1
+#         time.sleep(1)
+#         yield f'element numer {x}'
+
+# for dd in daj_dane():
+#     print(dd)
+# #
+# import time
+# def daj_dane():
+#     for x in range(1,11):
+#         time.sleep(1)
+#         yield f'element numer {x}'
+#
+# d=daj_dane()
+# for x in range(20):
+#     try:
+#         print(next(d))
+#     except StopIteration:
+#         break
+
+#42. Stwórz generator który będzie podawał kolejne dni tygodnia (poniedzialek,wtorek etc).
+# Przeiteruj po zwracanych przez niego wartosciach i wyswietl je na konsoli
