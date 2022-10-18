@@ -1037,3 +1037,73 @@
 # print(f'czas trwania to: {koniec-poczatek}s')
 
 
+#przerwa do 10:25
+
+#35. Wyświetl wynik dzielenia 1 przez kolejne liczby z zakresu -10 do 10.
+#
+# for x in range(-10,10):
+#     print(x,1/x)
+#
+# try:
+#     print(1/0)
+#     print('dalej....')
+#     print('koniec')
+# except:
+#     print('jakiś wyjątek....')
+
+
+# try:
+#     print(1/0)
+# except:
+#     print('jakiś wyjątek....')
+# print('dalej....')
+# print('koniec')
+
+#
+# try:
+#     print(1/0)
+# except Exception as e:
+#     print(f'jakiś wyjątek....{e}')
+# print('dalej....')
+# print('koniec')
+
+
+# try:
+#     print(1/0)
+# except Exception as e:
+#     print(f'jakiś wyjątek....{e}')
+# print('dalej....')
+# print('koniec')
+
+# try:
+#     print(1/0)
+# except ZeroDivisionError:
+#     print(f'dzielenie przez zero')
+# except IOError:
+#     print(f'JAJO error')
+# except NotImplementedError:
+#     print('nie zaimplementowano')
+# except Exception:
+#     print('coś jakby else')
+# print('dalej....')
+# print('koniec')
+#
+# try:
+#     print(1/0)
+# # except ZeroDivisionError:
+# #     print(f'dzielenie przez zero')
+# except IOError:
+#     print(f'JAJO error')
+# except NotImplementedError:
+#     print('nie zaimplementowano')
+# except Exception:
+#     print('coś jakby else')
+# print('dalej....')
+# print('koniec')
+
+# #raise ZeroDivisionError
+# raise Exception('moja własna treść wyjątku')
+
+#36. Wyświetl wynik dzielenia 1 przez kolejne liczby z zakresu -10 do 10 w taki sposob
+# by w przypadku wyjatku nie przerywac dzialania petli a po prostu wyswietlic na konsoli informację
+# o błędzie i przejsc do dalszego przetwarzania
