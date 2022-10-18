@@ -1811,5 +1811,111 @@
 # from datetime import datetime
 # now = datetime.now()
 # print(now.strftime("%d/%m/%Y %H:%M:%S"))
+#
+# #fun.__name__
+# import time
+#
+# def logger(fun):
+#     def wewnetrzna(*args,**kwargs):
+#         from datetime import datetime
+#         now = datetime.now()
+#         print(fun.__name__,now.strftime("%d/%m/%Y %H:%M:%S"),args,kwargs)
+#         return fun(*args,**kwargs)
+#     return wewnetrzna
+#
+# @logger
+# def funkcja(x):
+#     time.sleep(x)
+#
+# funkcja(1)
+
+#
+# #fun.__name__
+# import time
+#
+# def logger(fun):
+#     def wewnetrzna(*args,**kwargs):
+#         from datetime import datetime
+#         now = datetime.now()
+#         with open('logger.log',encoding='utf-8',mode='a') as plik:
+#             plik.write(f"{fun.__name__};{now.strftime('%d/%m/%Y %H:%M:%S')};{args}{kwargs}\n")
+#         return fun(*args,**kwargs)
+#     return wewnetrzna
+#
+# @logger
+# def funkcja(x):
+#     time.sleep(x)
+#
+# funkcja(1)
+# funkcja(2)
+# funkcja(3)
+
 
 #fun.__name__
+# import time
+#
+# def logger(fun):
+#     def wewnetrzna(*args,**kwargs):
+#         start=time.time()
+#         wynik=fun(*args, **kwargs)
+#         koniec=time.time()
+#         from datetime import datetime
+#         now = datetime.now()
+#         with open('logger.log',encoding='utf-8',mode='a') as plik:
+#             plik.write(f"{fun.__name__};{now.strftime('%d/%m/%Y %H:%M:%S')};{args}{kwargs};{wynik};{koniec-start}s\n")
+#         return wynik
+#     return wewnetrzna
+#
+# @logger
+# def funkcja(x):
+#     time.sleep(x)
+#     return f"spałem {x} sekund"
+#
+# funkcja(1)
+# funkcja(2)
+# funkcja(3)
+#
+# #select avg(czas_trwania )from logi where funkcja='jakastam'
+# select function, avg(timing) from logs group by function order by 2 desc;
+# import functools
+# import time
+# @functools.lru_cache(maxsize=10)
+# def dzialanie(x):
+#     time.sleep(1)
+#     return x*10
+#
+# p=time.time()
+# for _ in range(10):
+#     for i in range(1,4):
+#         dzialanie(i)
+# k=time.time()
+# print(f'{k-p}s')
+
+# import modul
+# modul.funkcja()
+#
+# import modul as m
+# m.funkcja()
+#
+# from modul import funkcja
+# funkcja()
+
+# import dao.client_dao as cdao
+# import dao.invoice_dao as idao
+# print(cdao.get_all())
+# print(idao.get_all())
+#
+# from dao.client_dao import *
+# from dao.invoice_dao import *
+# print(get_all())
+
+#import dao.client_dao
+#print(dao.client_dao.get_all())
+#import modul
+
+#import this
+
+import pakiecik.modul_pakietowy
+
+#57. Stwórz pakiet zawierający moduł który bedzie zawierał funkcję przyjmującą wzrost i masę a zwracającą bmi.
+# Zaimportuj i wywołaj tę funkcję w taki sposób by przy jej wywołaniu nie trzeba było  podawać nazwy pakietu ani modułu.
