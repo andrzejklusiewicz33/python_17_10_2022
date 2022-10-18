@@ -1195,3 +1195,18 @@
 
 #38. Stwórz funkcję która przyjmie wzrost i masę a zwróci zaokraglone do 2 miejsc po przecinku BMI.
 # W przypadku pojawienia się wyjątku, wyświetl na konsoli jaki wystąpił problem a z funkcji zwróć -1.
+
+# def bmi(wzrost,masa):
+#     try:
+#         return round(masa/pow(wzrost,2),2)
+#     except Exception as e:
+#         print(f'wyjątek {e} dla danych wzrost={wzrost}, masa={masa}')
+#         return -1
+#
+# print(bmi(1.76,84))
+# print(bmi('wysoki',84))
+# print(bmi(0,84))
+
+#39. Napisz funkcję która zwróci pod postacią listy krotek zawartość pliku
+  # którego nazwę przekażemy przez pierwszy argument funkcji. Plik ma być otwarty z kodowaniem
+  # podanym jako drugi argument funkcji. Jeśli kodowanie nie zostanie pdane ma przyjac utf-8
