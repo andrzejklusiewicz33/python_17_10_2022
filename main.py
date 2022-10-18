@@ -1130,3 +1130,68 @@
 # Nie podmieniaj przecinków etc w tekscie. W przypadku pojawienia się wyjątku dla
 # któregoś wiersza chcemy go zapisać (cały wiersz) w osobnym pliku bledy.csv wzbogacony o informację o rodzaju błędu
 #4;Andrzej;1,89;90;IOERROR
+#
+# dane=[e.strip().split(';') for e in open('dane.csv',encoding='utf-8') if len(e.strip())>0]
+# for d in dane:
+#     try:
+#         bmi=round(float(d[4])/pow(float(d[3]),2),2)
+#         print(d,bmi)
+#     except Exception as e:
+#         with open('bledy.csv',encoding='utf-8',mode='a') as plik:
+#             plik.write(';'.join(d)+";"+str(e)+"\n")
+#
+
+#import time
+
+# def timer(fun):
+#     def wewn(*args,**kwargs):
+#         s=time.time()
+#         fun(*args,**kwargs)
+#         k=time.time()
+#         print(f'czas trwania to {k-s}s')
+#     return wewn
+# @timer
+# def funkcja():
+#     time.sleep(3)
+#     print('hello')
+#
+# funkcja()
+
+# def funkcja():
+#     print('hello')
+#
+# funkcja()
+
+
+# def funkcja(a,b):
+#     print(a+b)
+#
+# funkcja(10,30)
+
+# def dodaj(a,b):
+#     return a+b
+#
+# print(dodaj(1,3))
+# wynik=dodaj(3,4)
+# print(wynik)
+
+# def dodaj(a,b):
+#     c=a+b
+#     return c
+#     print('to się nie ma prawa zdarzyć')
+#
+# print(dodaj(1,3))
+# wynik=dodaj(3,4)
+# print(wynik)
+
+# def witacz(imie='nie podano',nazwisko='nie podano'):
+#     print(f'siema {imie} {nazwisko}!')
+#
+# def witacz():
+#     print('siema')
+#
+# witacz('Andrzej','Klusiewicz')
+# witacz()
+
+#38. Stwórz funkcję która przyjmie wzrost i masę a zwróci zaokraglone do 2 miejsc po przecinku BMI.
+# W przypadku pojawienia się wyjątku, wyświetl na konsoli jaki wystąpił problem a z funkcji zwróć -1.
