@@ -1747,3 +1747,23 @@
 # time.sleep(2)
 # koniec=time.time()
 # print(f'czas: {koniec-poczatek}s')
+# import time
+# def timer(fun):
+#     def wewnetrzna(*args,**kwargs):
+#         poczatek=time.time()
+#         wynik=fun(*args,**kwargs)
+#         koniec=time.time()
+#         print(f'czas trwania funkcji {fun.__name__} wynosi {koniec-poczatek}s')
+#         return wynik
+#
+#     return wewnetrzna
+#
+# @timer
+# def spioch():
+#     time.sleep(3)
+#     return 66
+#
+# x=spioch()
+# print(f'odebrane={x}')
+
+#55. Stwórz dekodator który będzie zawsze zaokrąglał do 2 miejsc po przecinku wynik zwracany przez dekordowaną funkcję.
