@@ -1919,3 +1919,6 @@ import pakiecik.modul_pakietowy
 
 #57. Stwórz pakiet zawierający moduł który bedzie zawierał funkcję przyjmującą wzrost i masę a zwracającą bmi.
 # Zaimportuj i wywołaj tę funkcję w taki sposób by przy jej wywołaniu nie trzeba było  podawać nazwy pakietu ani modułu.
+#
+# from pakiet.modul import bmi
+# print(bmi(1.76,67))
