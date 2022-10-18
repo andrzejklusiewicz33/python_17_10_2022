@@ -1301,3 +1301,18 @@
 
 #42. Stwórz generator który będzie podawał kolejne dni tygodnia (poniedzialek,wtorek etc).
 # Przeiteruj po zwracanych przez niego wartosciach i wyswietl je na konsoli
+
+# def dni():
+#     yield 'poniedziałek'
+#     yield 'wtorek'
+#     yield 'środa'
+#     yield 'czwartek'
+#     yield 'piątek'
+#     yield 'sobota'
+#     yield 'niedziela'
+#
+# for d in dni():
+#     print(d)
+
+#43. Stworz generator ktory bedzie przyjmowal przez parametr ilosc elementow a nastepnie zwracal elementy o tresci
+# 'element o indeksie x'( gdzie x bedzie numerem podawanego elementu) czekajac 1 sekunde przed zwrotem kazdego elementu.
