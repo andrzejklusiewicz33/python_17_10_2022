@@ -1541,3 +1541,31 @@
 # druga analogicznie ale pomniejszony. Dodaj funkcję która będzie w stanie przyjąć przez argument inną
 # funkcję oraz ciąg tekstowy do obróbki który następnie po obrobieniu przez funkcję podaną jako
 # argument zostanie wyświetlony na konsoli
+
+# def powieksz(tekst):
+#     return tekst.upper()
+#
+# def pomniejsz(tekst):
+#     return tekst.lower()
+#
+# def cw50(fun,tekst):
+#     print(fun(tekst))
+#
+# cw50(powieksz,'siała BABA mak')
+# cw50(pomniejsz,'siała BABA mak')
+
+#51. Stworz funkcje ktora bedzie drukowala na konsoli dane otrzymane przez pierwszy argument
+# obrobione uprzednio przez wyrazenie lambda podane jako drugi argument.
+
+# def cw50(fun,tekst):
+#     print(fun.__name__)
+#     print(fun(tekst))
+#
+# cw50(lambda x:x.upper(),'siała BABA mak')
+# cw50(lambda x:x.lower(),'siała BABA mak')
+
+#52. Stwórz funkcję "parse" która będzie otrzymywała przez argumenty wartosc tekstową oraz *args funkcji.
+# Funkcja ta ma zastosować każdą z otrzymanych przez *args funkcji na wartości tekstowej którą następnie wypisze na konsoli.
+# Dodaj funkcję "powieksz" i "podziel" które mają zwracać otrzymane przez argument dane odpowiednio po powiększeniu
+# i podzieleniu tekstu na słowa. Wywołaj funkcję "parse" przekazując do niej ciąg tekstowy składający
+# się z więcej niż 1 słowa oraz funkcje "powieksz" i "podziel"
