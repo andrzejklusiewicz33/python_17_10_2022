@@ -1484,3 +1484,60 @@
 #
 # encoding=utf-8
 # color=black
+
+# def config(**kwargs):
+#     dane=[e.strip().split('=') for e in open('config.conf',encoding='utf-8')]
+#     slownik=dict()
+#     for d in dane:
+#         slownik[d[0]]=d[1]
+#     for k in kwargs:
+#         slownik[k]=kwargs[k]
+#     with open('config.conf',encoding='utf-8',mode='w') as plik:
+#         for k in slownik:
+#             plik.write(f'{k}={slownik[k]}\n')
+#
+# config(encoding='utf-8',color='red')
+#
+# slownik=dict()
+# slownik['k1']='wartość 1'
+# slownik['k2']='wartość 2'
+# print(slownik)
+# del slownik['k1']
+# print(slownik)
+
+#
+# def siemator():
+#     print('siema!')
+#
+# def opakowanie(fun):
+#     print(fun.__name__)
+#
+# opakowanie(siemator)
+
+# def obrob(x):
+#     return x*100
+#
+# def opakowanie(fun,y):
+#     print(fun(y))
+#
+# opakowanie(obrob,5)
+#
+#
+# import time
+# def funkcja():
+#     print('start!')
+#     time.sleep(4)
+#     print('koniec')
+#
+# # funkcja()
+# # print('dalej coś')
+#
+# import threading
+# t=threading.Thread(target=funkcja)
+# t.start()
+# print('dalej coś...')
+
+#50. Stwórz dwie funkcje - jedna ma zwracać powiększony tekst który otrzyma przez argument,
+# druga analogicznie ale pomniejszony. Dodaj funkcję która będzie w stanie przyjąć przez argument inną
+# funkcję oraz ciąg tekstowy do obróbki który następnie po obrobieniu przez funkcję podaną jako
+# argument zostanie wyświetlony na konsoli
