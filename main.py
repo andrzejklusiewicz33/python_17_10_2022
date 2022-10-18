@@ -1458,3 +1458,13 @@
 #47. Stwórz funkcję która przyjmie nieokreśloną liczbę elementów przez argument, a następnie wypisze
 # na konsoli ilość otrzymanych elementów. Poniżej informacji o ilości otrzymanych elementów wyświetl w osobnych
 # liniach każdy argument oraz jego typ.
+#
+# def cw47(*args):
+#     print(f'ilość elementów={len(args)}')
+#     for a in args:
+#         print(a,type(a))
+#
+# cw47(1,'koza','costam',5.5)
+
+#48.(kolejnosc argumentów gdy jest args) Stwórz funkcję która przyjmie przez argument mnożnik oraz elementy typu args.
+# Funkcja ma dla kazdego elementu typu args wyswietlic na konsoli wynik jego mnożenia przez mnożnik
