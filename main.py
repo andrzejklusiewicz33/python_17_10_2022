@@ -1331,3 +1331,46 @@
 
 #44. Stwórz generator który będzie podawał nieskończenie wiele liczb parzystych.
 # Przetestuj go pobierając z niego kolejne wartości i wyświetlając je na konsoli.
+
+# def parzyste(): #złe rozwiązanie
+#     x=0
+#     while True:
+#        x+=1
+#        if x%2==0:
+#            yield x
+
+# for p in parzyste():
+#     print(p)
+
+# def parzyste(): #złe rozwiązanie
+#     x=0
+#     while True:
+#        x+=2
+#        yield x
+#
+# for p in parzyste():
+#     print(p)
+
+#45.     • (do użycia np. w wyszukiwarce - szukaj aż znajdziesz ale nie wczytuj całości od razu)
+# Stwórz generator który będzie podawał kolejne linie z pliku tekstowego którego nazwę podamy przez  argument generatora.
+# Generator nie powinien wczytywać całego pliku od razu, a w miarę żądania kolejnych elementów powinien wczytywać
+# i zwracac kolejne linie z pliku . Użycie funkcji readlines() na obiekcie pliku będzie
+# tu więc niewłaściwe, ponieważ wczytuje  ona od razu cały plik, a to mogłoby doprowadzić do przepełnienia pamięci.
+# Przykład czytania pliku linia po linii:
+#
+# plik=open('linie.txt')
+# while True:
+#     linia=plik.readline()
+#     if not linia:
+#         break
+#     print(linia.strip())
+#
+# Utworz zmienna w ktorej umiescisz poszukiwana fraze.
+# Korzystajac z generatora przeszukuj zwracane przez generator linie w poszukiwaniu poszukiwanej frazy.
+# W przypadku znalezienia poszukiwanej frazy w zwracanej przez generator linii chcemy wyswietlic ta linie
+# i przerwac przetwarzanie danych z generatora.
+
+# for w in open('dane.csv').readlines():
+#     print(w)
+
+#print(len(open('dane.csv').readlines()))
