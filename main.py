@@ -943,3 +943,16 @@
 # Następnie wczytaj dane do słownika w ten sposób by pierwsza kolumna stanowila klucze a druga przypisane do nich wartości
 #. Przeiteruj po słowniku i wypisz klucze oraz przypisane do nich wartości
 #slownik['encoding']
+#
+# ustawienia=dict()
+# for f in [e.strip().split('=') for e in open('ustawienia.conf',encoding='utf-8') if len(e.strip())>0]:
+#     ustawienia[f[0]]=f[1]
+#
+# for k in ustawienia:
+#     print(k,ustawienia[k])
+#
+# print(ustawienia['encoding'])
+
+#33. Wczytaj do słownika dane z pliku dane.csv tak by kluczem było imię sklejone z
+# nazwiskiem rozdzielone spacja, a pozostałe dane znalazły się w wartości
+#   jako krotka lub lista. Przeiteruj po slowniku i wyswietl jego zawartość.
