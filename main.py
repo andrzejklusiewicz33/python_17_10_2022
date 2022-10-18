@@ -1210,3 +1210,21 @@
 #39. Napisz funkcję która zwróci pod postacią listy krotek zawartość pliku
   # którego nazwę przekażemy przez pierwszy argument funkcji. Plik ma być otwarty z kodowaniem
   # podanym jako drugi argument funkcji. Jeśli kodowanie nie zostanie pdane ma przyjac utf-8
+
+
+def dane(nazwa_pliku,kodowanie="utf-8"):
+    print(f'kodowanie={kodowanie}')
+    return [ tuple(e.strip().split(';')) for e in open(nazwa_pliku,encoding=kodowanie) if len(e.strip())>0]
+
+wynik=dane('dane.csv')
+#wynik=dane('dane.csv','utf-16')
+#print(wynik)
+for w in wynik:
+    print(w)
+
+#przerwa do 11:35
+
+#40. Napisz funkcję która bedzie w stanie przyjąć taką listę jaka jest zwracana
+ # przez funkcję z poprzedniego ćwiczenia. Funkcja ta ma przeiterować po otrzymanej
+ # liście i wyświetlić każdy element na konsoli. Odbierz dane z funkcji z ćwiczenia
+ # poprzedniego i przekaz do nowo powstalej funkcji.
