@@ -1374,3 +1374,78 @@
 #     print(w)
 
 #print(len(open('dane.csv').readlines()))
+
+# def czytacz(nazwa_pliku):
+#     plik=open(nazwa_pliku,encoding='utf-8')
+#     while True:
+#         linia=plik.readline()
+#         if not linia:
+#             break
+#         yield linia
+#
+# szukane='zachód'
+# for c in czytacz('tadzio.txt'):
+#     if szukane.lower() in c.lower():
+#         print(c)
+#         break
+
+
+# suma=0
+# for x in range(1,1000):
+#     suma+=x
+
+#przerwa obiadowa do 13:00
+#
+# import time
+# def timer(fun):
+#     def wewn(*args,**kwargs):
+#         s=time.time()
+#         fun(*args,**kwargs)
+#         k=time.time()
+#         print(f'czas trwania to {k-s}s')
+#     return wewn
+# @timer
+# def funkcja():
+#     time.sleep(3)
+#     print('hello')
+#
+# funkcja()
+#
+# def args(*params):
+#     print(type(params))
+#
+# args(1,'koza','nietoperz','toperz')
+
+
+# def args(*params):
+#     print(type(params))
+#     for p in params:
+#         print(p)
+#
+# args(1,'koza','nietoperz','toperz')
+#
+#
+
+
+# def kwargs(**kwargs):
+#     print(type(kwargs))
+#     for k in kwargs:
+#         print(k,kwargs[k])
+#
+#
+# kwargs(param1='coś',param2=1234)
+
+# def funkcja(moj_parametr,*args,**kwargs):
+#     print(f'moj_parametr={moj_parametr}')
+#     print(f'args={args}')
+#     print(f'kwargs={kwargs}')
+#
+# funkcja('cos do mojego parametru',1,2,3,4,param1='uuuuu')
+
+#46. Stwórz funkcję która wydrukuje na konsoli sumę wartości przekazanych do niej jako *args
+#
+# lista=[1,2,3,4,5]
+# print(sum(lista))
+# print(max(lista))
+# print(min(lista))
+# print(sum(lista)/len(lista))
