@@ -1468,3 +1468,19 @@
 
 #48.(kolejnosc argumentów gdy jest args) Stwórz funkcję która przyjmie przez argument mnożnik oraz elementy typu args.
 # Funkcja ma dla kazdego elementu typu args wyswietlic na konsoli wynik jego mnożenia przez mnożnik
+
+# def mnozenie(mnoznik,*args):
+#     for a in args:
+#         print(a*mnoznik)
+#
+# mnozenie(10,1,2,3,4,5)
+
+#49. Stworz funkcje "config" ktora bedzie otrzymywala argumenty kwargs bedace ustawieniami.
+# Funkcja ta ma zapisac podane argumenty do pliku config.csv w 2 kolumnach z czego pierwsza jest nazwa argumentu
+# a druga jego wartoscia. Jesli dane argument juz istnieje w pliku to trzeba bedzie tylko zaktualizowac jego wartosc,
+# jesli jeszcze go nie ma to trzeba go bedzie dodac do pliku.
+
+# config(encoding='utf-8',color='black')
+#
+# encoding=utf-8
+# color=black
