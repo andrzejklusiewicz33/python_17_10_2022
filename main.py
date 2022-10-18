@@ -975,11 +975,47 @@
 #    c) Przepakuj dane ze słownika do listy i posortuj.
 #
 
+# nazwa_pliku='tadzio.txt'
+# calosc=open(nazwa_pliku,encoding='utf-8').read().lower()
+# niechciane=[',','.','!','?','(',')','…',';',':','/','-']
+# for n in niechciane:
+#     calosc=calosc.replace(n,'')
+# slowa=calosc.split()
+# print(slowa)
+# slownik=dict()
+#
+# import time
+# poczatek=time.time()
+# nazwa_pliku='tadzio.txt'
+# calosc=open(nazwa_pliku,encoding='utf-8').read().lower()
+# niechciane=[',','.','!','?','(',')','…',';',':','/','-']
+# for n in niechciane:
+#     calosc=calosc.replace(n,'')
+# slownik=dict()
+# for s in calosc.split():
+#     if s in slownik:
+#         slownik[s]+=1
+#     else:
+#         slownik[s]=1
+# for k in slownik:
+#     print(k,slownik[k])
+# koniec=time.time()
+# print(f'czas trwania to: {koniec-poczatek}s')
+
+
+#fuuuu rozwiązanie - tak nie robimy - to przyklad jak mozna to schrzanić
+
+
+import time
+poczatek=time.time()
 nazwa_pliku='tadzio.txt'
 calosc=open(nazwa_pliku,encoding='utf-8').read().lower()
 niechciane=[',','.','!','?','(',')','…',';',':','/','-']
 for n in niechciane:
     calosc=calosc.replace(n,'')
-slowa=calosc.split()
-print(slowa)
 slownik=dict()
+slowa=calosc.split()
+for s in slowa:
+    print(s,slowa.count(s))
+koniec=time.time()
+print(f'czas trwania to: {koniec-poczatek}s')
