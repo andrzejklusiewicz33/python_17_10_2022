@@ -1229,6 +1229,17 @@
  # liście i wyświetlić każdy element na konsoli. Odbierz dane z funkcji z ćwiczenia
  # poprzedniego i przekaz do nowo powstalej funkcji.
 
-def dane(nazwa_pliku,kodowanie="utf-8"):
-    print(f'kodowanie={kodowanie}')
-    return [ tuple(e.strip().split(';')) for e in open(nazwa_pliku,encoding=kodowanie) if len(e.strip())>0]
+# def dane(nazwa_pliku,kodowanie="utf-8"):
+#     return [ tuple(e.strip().split(';')) for e in open(nazwa_pliku,encoding=kodowanie) if len(e.strip())>0]
+#
+# def drukuj(lista):
+#     for e in lista:
+#         print(e)
+#
+# wynik=dane('dane.csv')
+# drukuj(wynik)
+#
+# drukuj(dane('dane.csv'))
+
+#41. Napisz funkcję która przyjmie przez argumenty kwotę lokaty, oprocentowanie w skali roku, ilosc miesięcy.
+# Funkcja ma zwrócić zarobek na lokacie o podanych parametrach
