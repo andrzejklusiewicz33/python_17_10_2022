@@ -1767,3 +1767,49 @@
 # print(f'odebrane={x}')
 
 #55. Stwórz dekodator który będzie zawsze zaokrąglał do 2 miejsc po przecinku wynik zwracany przez dekordowaną funkcję.
+#
+# def dodatkowy(fun):
+#     def wewnetrzna(*args,**kwargs):
+#         print('dodatkowy dekorator')
+#         return fun(*args,**kwargs)
+#     return wewnetrzna
+# def zaokraglacz(fun):
+#     def wewnetrzna(*args,**kwargs):
+#         return round(fun(*args,**kwargs),2)
+#     return wewnetrzna
+#
+# @zaokraglacz
+# @dodatkowy
+# def daj_liczbe():
+#     print('koza!')
+#     return 10/3
+#
+# print(daj_liczbe())
+#
+# def powtorz(x):
+#     def dekorator(fun):
+#         def wewnetrzna(*args,**kwargs):
+#             for i in range(1,x+1):
+#                 fun(*args,**kwargs)
+#         return wewnetrzna
+#     return dekorator
+# @powtorz(10)
+# def funkcja():
+#     print('hello')
+#
+# funkcja()
+#
+# @app.route('/show_participant_details')
+# def widok_szczegolow_uczestnika():
+#     pass
+
+#56.    • Stwórz dekorator który będzie rejestrował do pliku loga wszystkie wywołania dekorowanej funkcji
+# z informacją o nazwie dekorowanej funkcji, dacie i czasie jej wywołania oraz argumentach przekazanych
+# do dekorowanej funkcji. Log ma być w formacie CSV. Same argumenty powinny być rejestrowane w jednej kolumnie razem.
+# Pobranie nazwy funkcji: fun.__name__,
+# Pobranie aktualnego czasu i daty:
+# from datetime import datetime
+# now = datetime.now()
+# print(now.strftime("%d/%m/%Y %H:%M:%S"))
+
+#fun.__name__
