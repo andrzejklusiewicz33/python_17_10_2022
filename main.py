@@ -2311,3 +2311,95 @@
 
 #67. Załaduj dane z pliku dane.csv do postaci listy obiektów.
 # Następnie przeiteruj po tej liście i wyświetl zawartość każdego z obiektów
+#
+# class Sportsman:
+#     def __init__(self,id,first_name,last_name,height,weight):
+#         self.id=id
+#         self.first_name=first_name
+#         self.last_name=last_name
+#         self.height=height
+#         self.weight=weight
+#     def __str__(self):
+#         return str(self.__dict__)
+#
+# result=[]
+# for e in [e.strip().split(';') for e in open('dane.csv')]:
+#     result.append(Sportsman(e[0],e[1],e[2],e[3],e[4]))
+#
+# for r in result:
+#     print(r)
+
+# class ABC:
+#     def __enter__(self):
+#         print('enter - wejście w managera kontekstu')
+#     def __exit__(self, exc_type, exc_val, exc_tb):
+#         print('exit - wyjscie z managera kontekstu')
+#     def __del__(self):
+#         print('delete')
+# #
+# # with ABC() as abc:
+# #     pass
+#
+# a=ABC()
+#
+# class Person:
+#     def __init__(self,first_name,last_name):
+#         if first_name is None or len(first_name)==0:  raise Exception('pole first_name nie może być puste')
+#         if last_name is None or len(last_name)==0: raise Exception('pole last_name nie może być puste')
+#         self.first_name=first_name
+#         self.last_name=last_name
+#     def __str__(self):
+#         return str(self.__dict__)
+#
+# p=Person('Andrzej','Klusiewicz')
+# p.first_name=None
+# p.last_name=None
+# print(p)
+#p=Person(None,None)
+
+
+#
+# class Person:
+#     def __init__(self,first_name,last_name):
+#         if first_name is None or len(first_name)==0:  raise Exception('pole first_name nie może być puste')
+#         if last_name is None or len(last_name)==0: raise Exception('pole last_name nie może być puste')
+#         self.__first_name=first_name
+#         self.__last_name=last_name
+#     def __str__(self):
+#         return str(self.__dict__)
+#
+# p=Person('Andrzej','Klusiewicz')
+# p.__first_name=None
+# p.__last_name=None
+# print(p)
+
+#
+# class Person:
+#     def __init__(self,first_name,last_name):
+#         self.set_first_name(first_name)
+#         self.set_last_name(last_name)
+#     def __str__(self):
+#         return str(self.__dict__)
+#     def get_first_name(self):
+#         return self.__first_name
+#     def get_last_name(self):
+#         return self.__last_name
+#
+#     def set_first_name(self,first_name):
+#         if first_name is None or len(first_name) == 0:  raise Exception('pole first_name nie może być puste')
+#         self.__first_name=first_name
+#     def set_last_name(self,last_name):
+#         if last_name is None or len(last_name) == 0: raise Exception('pole last_name nie może być puste')
+#         self.__last_name = last_name
+#
+# p=Person('Andrzej','Klusiewicz')
+# #p.set_first_name(None)
+# p.set_first_name('Janusz')
+# print(p)
+
+#68. Stwórz klasę Samochod od nowa z polami marka, model, rejestracja oraz zaimplementowaną metodą __str__.
+# Zadbaj o to by w klasie samochód wszystkie pola były prywatne, ale by istniały metody typu setter służące
+# do ustawiania wartości tych pól. Zadbaj o to by wszystkie odwołania wewnątrz klasy do pól były wykonywane
+# za pośrednictwem setterów. Zadbaj o to by nie dało się ustawić marki ani modelu o zerowej długości oraz
+# o to by długość rejestracji zawsze mieściła się w zakresie 7-8 znaków. W przypadku podania niewłasciwych
+# danych rzuć wyjątkiem z adekwatnym komunikatem.
