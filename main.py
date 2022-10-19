@@ -2125,15 +2125,81 @@
 
 #62. Zadbaj o to by klasa Samochod posiadała metodę pozwalającą ustawić wartości wszystkich pól.
 # Jej przykładowe wywołanie: s1.ustaw_wartosci(‘Renault’,’Kadjar’,’WE968RP’)
+# class Samochod:
+#     marka=None
+#     model=None
+#     rejestracja=None
+#
+#     def ustaw(self,marka,model,rejestracja):
+#         self.marka=marka
+#         self.model=model
+#         self.rejestracja=rejestracja
+#     def wyswietl(self):
+#         print(f'marka={self.marka}, model={self.model}, rejestracja={self.rejestracja}')
+#
+#
+# s1=Samochod()
+# s1.ustaw('Audi','A4','ABC 1234')
+# s2=Samochod()
+# s2.ustaw('BMW','e46','WWL 1234')
+#
+# s1.wyswietl()
+# s2.wyswietl()
+#
+# class Person:
+#     first_name=None
+#     last_name=None
+#     def set_all(self,first_name,last_name):
+#         self.first_name=first_name
+#         self.last_name=last_name
+#     def show(self):
+#         print(f'first_name={self.first_name}, last_name={self.last_name}')
+#
+# p1=Person()
+# #p1.set_all('Andrzej','Klusiewicz')
+# p1.show()
+
+#
+# class Person:
+#     first_name=None
+#     last_name=None
+#     def __init__(self):
+#         print('tworzenie obiektu')
+#     def set_all(self,first_name,last_name):
+#         self.first_name=first_name
+#         self.last_name=last_name
+#     def show(self):
+#         print(f'first_name={self.first_name}, last_name={self.last_name}')
+#
+# p1=Person()
+#p1.set_all('Andrzej','Klusiewicz')
+#p1.show()
+
+#
+# class Person:
+#     def __init__(self,first_name,last_name):
+#         print('tworzenie obiektu')
+#         self.first_name = first_name
+#         self.last_name = last_name
+#     def show(self):
+#         print(f'first_name={self.first_name}, last_name={self.last_name}')
+#
+# p1=Person('Andrzej','Klusiewicz')
+# p1.description='Twój stary'
+# p1.show()
+# print(p1.description)
+
+
+#63. Dodaj do klasy Samochód konstruktor wymuszający ustawienie wartości wszystkich pól przy tworzeniu obiektu.
+#    Stworz obiekt klasy samochod i wywolaj na nim metode wyswietl
+
 class Samochod:
     marka=None
     model=None
     rejestracja=None
+    def ustaw(self,marka,model,rejestracja):
+        self.marka=marka
+        self.model=model
+        self.rejestracja=rejestracja
     def wyswietl(self):
         print(f'marka={self.marka}, model={self.model}, rejestracja={self.rejestracja}')
-
-
-s1=Samochod()
-s1.ustaw('Audi','A4','ABC 1234')
-s2=Samochod()
-s2.ustaw('BMW','e46','WWL 1234')
