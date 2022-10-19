@@ -2573,3 +2573,67 @@
 # implementacji metody abstrakcyjnej "serwuj_danie" we wszystkich tych klasach ale o różnej implementacji.
 # Powołaj do życia obiekty tych klas, a następnie na rzecz każdego z
 # tych obiektów wywołaj funkcję serwuj_danie.
+#
+# from abc import ABC, abstractmethod
+# class Restauracja(ABC):
+#     @abstractmethod
+#     def serwuj_danie(self):
+#         pass
+#
+# class RestauracjaChinska(Restauracja):
+#     def serwuj_danie(self):
+#         print('niepokojące szczekanie z kuchni....')
+#
+# class RestauracjaWloska(Restauracja):
+#     def serwuj_danie(self):
+#         print('Ktoś tu nawija makaron')
+#
+# class RestauracjaPolska(Restauracja):
+#     def serwuj_danie(self):
+#         print('lorneta z meduzą')
+#
+# restauracje=[RestauracjaChinska(),RestauracjaWloska(),RestauracjaPolska()]
+# for r in restauracje:
+#     r.serwuj_danie()
+
+# class Iterator:
+#
+#     def __init__(self):
+#         self.x=0
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         self.x+=1
+#         return self.x
+#
+# # i=Iterator()
+# # for e in i:
+# #     print(e)
+# i=Iterator()
+# for x in range(10):
+#     print(next(i))
+
+#
+# class Iterator:
+#     def __init__(self):
+#         self.reset_state()
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         self.x+=1
+#         return self.x
+#     def reset_state(self):
+#         self.x=0
+#
+# # i=Iterator()
+# # for e in i:
+# #     print(e)
+# i=Iterator()
+# for x in range(3):
+#     print(next(i))
+# print('##############')
+# i.reset_state()
+# for x in range(3):
+#     print(next(i))
+
+#71. Stwórz iterator który bedzie podawał nieskończenie wiele kolejnych potęg liczby dwa 
