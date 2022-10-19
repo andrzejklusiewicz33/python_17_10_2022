@@ -1994,6 +1994,12 @@
 #pgadmin4
 
 #DBeaver
+#
+# import psycopg2
+# connection=psycopg2.connect(host='localhost',database='aplikacja',port=5432, user='aplikacja', password='oracle')
+# connection.close()
+
 
 import psycopg2
-connection=psycopg2.connect(host='localhost',database='aplikacja',port=5432, user='aplikacja', password='oracle')
+with psycopg2.connect(host='localhost',database='aplikacja',port=5432, user='aplikacja', password='oracle') as connection:
+    pass
