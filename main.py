@@ -2403,3 +2403,100 @@
 # za pośrednictwem setterów. Zadbaj o to by nie dało się ustawić marki ani modelu o zerowej długości oraz
 # o to by długość rejestracji zawsze mieściła się w zakresie 7-8 znaków. W przypadku podania niewłasciwych
 # danych rzuć wyjątkiem z adekwatnym komunikatem.
+
+# class Samochod:
+#     def __init__(self,marka,model,rejestracja):
+#         self.set_marka(marka)
+#         self.set_model(model)
+#         self.set_rejestracja(rejestracja)
+#
+#     def set_marka(self,marka):
+#         if marka is None or len(marka)==0:
+#             raise Exception('pole marka nie może być puste')
+#         self.__marka=marka
+#     def set_model(self,model):
+#         if model is None or len(model) == 0:
+#             raise Exception('pole model nie może być puste')
+#         self.__model = model
+#
+#     def set_rejestracja(self,rejestracja):
+#         if rejestracja is None or len(rejestracja)<7 or len(rejestracja)>8:
+#             raise Exception('rejestracja musi mieć 7-8 znaków')
+#         self.__rejestracja=rejestracja
+#     def __str__(self):
+#         return str(self.__dict__)
+#
+# s=Samochod('A','B','1234567')
+# print(s)
+
+#
+# class Person{
+#     private String first_name;
+# }
+
+# class A:
+#     def funkcja_a(self):
+#         print('funkcja z A')
+#
+#     def kolejna_funkcja(self):
+#         print('kolejna funkcja')
+#
+# class B(A):
+#     def funkcja_b(self):
+#         print('funkcja z B')
+#
+# a=A()
+# a.funkcja_a()
+# b=B()
+# b.funkcja_b()
+# b.funkcja_a()
+# b.kolejna_funkcja()
+
+#
+# class A:
+#     def funkcja_a(self):
+#         print('funkcja A')
+#
+# class B:
+#     def funkcja_b(self):
+#         print('funkcja b')
+#
+# class C(A,B):
+#     pass
+#
+# c=C()
+# c.funkcja_a()
+# c.funkcja_b()
+
+#
+# class A:
+#     def funkcja_a(self):
+#         print('funkcja A')
+#
+#     def funkcja(self):
+#         print('zwykła funkcja z A')
+# class B:
+#     def funkcja_b(self):
+#         print('funkcja b')
+#
+#     def funkcja(self):
+#         print('zwykła funkcja z B')
+#
+# # class C(A,B):
+# #     pass
+#
+# class C(B,A):
+#     pass
+#
+# c=C()
+# c.funkcja_a()
+# c.funkcja_b()
+# c.funkcja()
+
+#69.Stwórz klasę Samochod i dodaj do niej metodę jedz() która bedzie wyświetlala napis na konsoli.
+# Dodaj konstruktor pozwalajacy tworzyc obiekty z podaniem marki modelu i rejestracji do klasy Samochod.
+# Stwórz klasę "Działo" która będzie posiadała metodę strzelaj(). Stwórz klasę "Czolg"
+# która będzie dziedziczyła po klasach Samochod i Dzialo. Stwórz obiekt klasy Czolg i wywolaj
+# na nim zarówno metodę jedz() jak i strzelaj(). Zwróć uwagę na to jak trzeba wywołać konstruktor
+# obiektu klasy Czolg. Sprawdz czy zmiana kolejnosci dziedziczenia wplywa na sposob wywołania konstruktora.
+# Sprawdz czy dodanie bezparametrowego __init__ do klasy Czolg zmienia zachowanie.
