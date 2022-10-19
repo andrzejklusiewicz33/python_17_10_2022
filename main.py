@@ -1999,7 +1999,26 @@
 # connection=psycopg2.connect(host='localhost',database='aplikacja',port=5432, user='aplikacja', password='oracle')
 # connection.close()
 
+#
+# import psycopg2
+# with psycopg2.connect(host='localhost',database='aplikacja',port=5432, user='aplikacja', password='oracle') as connection:
+#     pass
 
-import psycopg2
-with psycopg2.connect(host='localhost',database='aplikacja',port=5432, user='aplikacja', password='oracle') as connection:
-    pass
+
+#SQLAlchemy
+#DjangoORM
+
+#Product.objects.all()
+#product.save()
+#
+# import psycopg2
+# with psycopg2.connect(host='localhost',database='aplikacja',port=5432, user='aplikacja', password='oracle') as connection:
+#     cursor=connection.cursor()
+#     cursor.execute('select * from produkty')
+#     for w in cursor:
+#         print(w[1])
+#
+
+#59. Stwórz tabelkę pracownicy. Niech posiada ona kolumny id_pracownika,imię,nazwisko,telefon. Wstaw
+# 3 pracowników do tabeli i upewnij się że się tam znajdują. Napisz funkcję która przyjmie przez parametr
+# nazwę pliku do którego zapisze wszystkie wiersze z tabelki pracownicy w fomacie csv.
