@@ -2685,3 +2685,6 @@
 #73. Stworz w osobnym module funkcje ktora bedzie zwracala liste 100 losowych liczb z zakresu 1-100.
 # Dodaj testy jednostkowe ktory beda sprawdzaly czy funkcja zwrocila 100 elementow, czy wszystkie mieszcza
 # sie w zakresie 1-100 i czy wszystkie zwracane wartosci sa liczbami calkowitymi
+
+
+#klusiewicz@jsystems.pl
