@@ -1,5 +1,5 @@
-#test
-#Andrzej Klusiewicz
+# test
+# Andrzej Klusiewicz
 # print("Hello world")
 # print('Hello world')
 # print("Hello world in Mc'Donalds")
@@ -26,8 +26,8 @@
 # print(f'Wybrany owoc to {owoc}')
 
 
-#1. Napisz program który przyjmie od użyszkodnika imię oraz nazwisko, a następnie
-#wypisze na konsoli komunikat typu "Witaj TwojeImie TwojeNazwisko!"
+# 1. Napisz program który przyjmie od użyszkodnika imię oraz nazwisko, a następnie
+# wypisze na konsoli komunikat typu "Witaj TwojeImie TwojeNazwisko!"
 #
 # first_name=input('Podaj imię:\n')
 # last_name=input('Podaj nazwisko:\n')
@@ -39,7 +39,7 @@
 # print(liczba,type(liczba))
 # print(liczba/2)
 
-#print('xyz'*10)
+# print('xyz'*10)
 
 
 #
@@ -53,18 +53,18 @@
 # print(liczba,type(liczba))
 # print(liczba/2)
 
-#2. • BMI= masa/(wzrost*wzrost) .
+# 2. • BMI= masa/(wzrost*wzrost) .
 # Napisz program który odbierze od użytkownika jego masę w kilogramach i wzrost w metrach,
 # wyliczy i wypisze BMI.
 
-#print(pow(1.76,2))
+# print(pow(1.76,2))
 #
 # wzrost=float(input('podaj wzrost w metrach:\n'))
 # masa=float(input('podaj masę w kilogramach:\n'))
 # bmi=round(masa/pow(wzrost,2),2)
 # print(f"bmi={bmi}")
 
-#przerwa do 10:31
+# przerwa do 10:31
 
 
 # x=-9
@@ -84,7 +84,7 @@
 # else:
 #     print('poza zakresem')
 
-#3. Niech użytkownik poda jakąś liczbę. Jeśli poda dodatnią to chcemy wyświetlić tę wartość z informacją "wartość dodatnia",
+# 3. Niech użytkownik poda jakąś liczbę. Jeśli poda dodatnią to chcemy wyświetlić tę wartość z informacją "wartość dodatnia",
 # jeśli zero to wyświetlamy z informacją "równe zero", jeśli ujemna to wyświetlamy "wartość ujemna".
 
 # x=int(input('podaj liczbę:\n'))
@@ -96,8 +96,8 @@
 #     print(f'x={x} jest ujemny')
 
 
-#4. Rozbuduj swój program do bmi w taki sposob by poza wyswietleniem obliczonego bmi
-#wyświetlił nam również odpowiedni opis wg skali z Wikipedii.
+# 4. Rozbuduj swój program do bmi w taki sposob by poza wyswietleniem obliczonego bmi
+# wyświetlił nam również odpowiedni opis wg skali z Wikipedii.
 #
 # wzrost=float(input('podaj wzrost w metrach:\n'))
 # masa=float(input('podaj masę w kilogramach:\n'))
@@ -137,19 +137,19 @@
 # for x in range(1,11):
 #     print(x)
 
-#help(range)
+# help(range)
 #
 # for x in range(1,11):
 #     print(x)
 # print('koniec')
 
-#5. Wyświetl 20 kolejnych potęg liczby 2
+# 5. Wyświetl 20 kolejnych potęg liczby 2
 #
 # for p in range(1,21):
 #     print(f"2^{p}={pow(2,p)}")
 
 
-#for p in range(1,21): print(f"2^{p}={pow(2,p)}")
+# for p in range(1,21): print(f"2^{p}={pow(2,p)}")
 #
 # for p in range(1,21):
 #     print(f"2^{p}={pow(2,p)}")
@@ -157,8 +157,8 @@
 #         pass
 
 
-#6. Wydrukuj liczby w zakresie 1-100 wypisujac obok czy dana liczba jest
-#parzysta czy nieparzysta
+# 6. Wydrukuj liczby w zakresie 1-100 wypisujac obok czy dana liczba jest
+# parzysta czy nieparzysta
 #
 # print(11%2)
 #
@@ -178,13 +178,13 @@
 #         break
 #     print(x)
 
-#7. Napisz symulator lokaty. Symulator ma przyjmować przez zmienne:
-  # - kwotę lokaty
-  # - oprocentowanie w skali roku
-  # - ilość miesięcy na jaką zakladamy lokatę
-  # Symulator ma dla każdego miesiąca lokaty wypisać który to miesiąc
-  # oraz ile mamy aktualnie zgromadzone na koncie po doliczeniu odsetek.
-  # Kapitalizacja comiesięczna
+# 7. Napisz symulator lokaty. Symulator ma przyjmować przez zmienne:
+# - kwotę lokaty
+# - oprocentowanie w skali roku
+# - ilość miesięcy na jaką zakladamy lokatę
+# Symulator ma dla każdego miesiąca lokaty wypisać który to miesiąc
+# oraz ile mamy aktualnie zgromadzone na koncie po doliczeniu odsetek.
+# Kapitalizacja comiesięczna
 #
 # hajs=1000000
 # oprocentowanie=0.03
@@ -204,7 +204,7 @@
 #     x=x*2
 #     print(x)
 
-#8. Napisz korzystajac z petli while program który wyświetli
+# 8. Napisz korzystajac z petli while program który wyświetli
 #   10 kolejnych potęg liczby 2.
 #
 # p=1
@@ -214,7 +214,7 @@
 #     #p=p+1
 #
 
-#9. Napisz pętlę while która będzie wyświetlała kolejne potęgi liczby 2 aż wartość  potęgi
+# 9. Napisz pętlę while która będzie wyświetlała kolejne potęgi liczby 2 aż wartość  potęgi
 # nie przekroczy wartości podanej przez użytkownika
 #
 # max=int(input('podaj maksymalną wartość:\n'))
@@ -225,8 +225,8 @@
 #     potega=pow(2,np)
 #     print(potega)
 
-#10. Napisz program który będzie dodawał kolejne losowe wartości z zakresu
-#od 1 do 10 do zmiennej suma, tak dlugo az suma nie osiagnie wartosci wiekszej od wartosci podanej przez uzytkownika
+# 10. Napisz program który będzie dodawał kolejne losowe wartości z zakresu
+# od 1 do 10 do zmiennej suma, tak dlugo az suma nie osiagnie wartosci wiekszej od wartosci podanej przez uzytkownika
 
 # import random
 # print(random.randint(1,100))
@@ -239,7 +239,7 @@
 #     print(f'suma={suma}')
 
 
-#przerwa do 11:41
+# przerwa do 11:41
 #
 # tekst="\n             siała BABA mak, dostała 10 lat bo nie płaciła VAT       "
 # print(tekst.upper())
@@ -258,7 +258,7 @@
 # linia='1;Andrzej;Klusiewicz'
 # print(linia.split(';'))
 
-#11. Napisz program który przyjmie od użyszkodnika ciąg tekstowy a następnie usunie z niego znaki ,.!?
+# 11. Napisz program który przyjmie od użyszkodnika ciąg tekstowy a następnie usunie z niego znaki ,.!?
 # i wyświetli powiększony do dużych liter na konsoli
 
 # odebrane=input('podaj tekst:\n')
@@ -286,7 +286,7 @@
 # for linia in open('tadzio.txt',encoding='utf-8'):
 #     print(len(linia.strip()),linia.strip())
 
-#12. Napisz program który wyświetli na konsoli niepuste linie z pliku tekstowego którego nazwę poda użytkownik
+# 12. Napisz program który wyświetli na konsoli niepuste linie z pliku tekstowego którego nazwę poda użytkownik
 
 # nazwa_pliku=input('podaj nazwę pliku:\n')
 # for linia in open(nazwa_pliku,encoding='utf-8'):
@@ -297,7 +297,7 @@
 # print(calosc)
 # print(calosc.count('a'))
 
-#13. Napisz program który zliczy ilość wystąpień małej lub dużej wersji ciagu tekstowego
+# 13. Napisz program który zliczy ilość wystąpień małej lub dużej wersji ciagu tekstowego
 # podanego przez użytkownika w pliku którego nazwę również poda użytkownik.
 
 # szukane=input('podaj szukane:\n')
@@ -306,7 +306,7 @@
 
 
 # print(  open(input('podaj nazwę pliku:\n'),encoding='utf-8').read().lower().count( input('podaj szukane:\n').lower()  )  )
-#print('siema')
+# print('siema')
 #
 # szukane=input('podaj szukane:\n')
 # nazwa_pliku=input('podaj nazwę pliku:\n')
@@ -321,11 +321,11 @@
 # calosc=open(nazwa_pliku,encoding='utf-8').read().lower()
 # print(  calosc.count( szukane  )  )
 
-#14. Napisz wyszukiwarkę plikową. Wyszukiwarka powinna odebrać od użytkownika
- # poszukiwaną frazę, oraz nazwę pliku. Wyszukiwarka powinna wyświetlić
- #  linie w których znalazła poszukiwaną frazę wraz z numerem linii. Wyszukiwarka
- #  po  odebraniu danych od uzyszkodnika powinna wyswietlic jakiej frazy
- #  i w  jakim pliku szuka. Wyszukiwarka powinna być nieczula na wielkosc liter.
+# 14. Napisz wyszukiwarkę plikową. Wyszukiwarka powinna odebrać od użytkownika
+# poszukiwaną frazę, oraz nazwę pliku. Wyszukiwarka powinna wyświetlić
+#  linie w których znalazła poszukiwaną frazę wraz z numerem linii. Wyszukiwarka
+#  po  odebraniu danych od uzyszkodnika powinna wyswietlic jakiej frazy
+#  i w  jakim pliku szuka. Wyszukiwarka powinna być nieczula na wielkosc liter.
 #
 # szukane=input('podaj poszukiwaną frazę:\n')
 # nazwa_pliku=input('podaj nazwę pliku:\n')
@@ -340,7 +340,7 @@
 # print(tekst[0:10])
 # print(tekst[0:10:2])
 
-#15. Napisz program który będzie od uzytkownika przyjmowal nazwę pliku z kodem pythona.
+# 15. Napisz program który będzie od uzytkownika przyjmowal nazwę pliku z kodem pythona.
 # Program ma wyświetlić wszystkie linie które nie są w całości komentarzami wraz z numerami tych linii w pliku
 #
 # #komentarz
@@ -357,9 +357,9 @@
 #     if  linia.strip()[0]!='#' and len(linia.strip())>0: #fuuuuu
 #         print(linia.strip())
 
-#przerwa do 13:00
+# przerwa do 13:00
 
-#listy, krotki, słowniki, zestawy
+# listy, krotki, słowniki, zestawy
 #
 # lista=[]
 # lista=list()
@@ -370,8 +370,8 @@
 # for element in lista:
 #     print(element)
 
-#16. Napisz kod który umieści w liście 10 kolejnych potęg liczby 2.
-#Następnie przeiteruj po tej liście i każdy z jej elementów wyświetl na konsoli w osobnej linii.
+# 16. Napisz kod który umieści w liście 10 kolejnych potęg liczby 2.
+# Następnie przeiteruj po tej liście i każdy z jej elementów wyświetl na konsoli w osobnej linii.
 #
 # lista=[]
 # for p in range(1,11):
@@ -413,7 +413,7 @@
 # lista1.extend(lista2)
 # print(lista1)
 
-#17. Stwórz dwie listy. Każda z list ma zawierać 10 liczb losowych z zakresu 1-10.
+# 17. Stwórz dwie listy. Każda z list ma zawierać 10 liczb losowych z zakresu 1-10.
 # Połącz te dwie listy do jednej i wyswietl na konsoli (extend albo *lista)
 #
 # import random
@@ -429,9 +429,9 @@
 # l1.extend(l2)
 # print(l1)
 
-#18. Korzystajac z petli stworz liste zawierajaca elementy same bedace listami.
+# 18. Korzystajac z petli stworz liste zawierajaca elementy same bedace listami.
 # Kazdy taki element ma zawierac numer potegi oraz wartosc tej potegi dla liczby 2.
-#lista niech zawiera 20 elementów
+# lista niech zawiera 20 elementów
 
 # lista=[
 #     [1,2],
@@ -485,12 +485,12 @@
 # lista=[random.randint(1,10) for e in range(100)]
 # print(lista)
 
-#19. Korzystając z list składanych wygeneruj listę zawierajaca 10 kolejnych poteg 2
+# 19. Korzystając z list składanych wygeneruj listę zawierajaca 10 kolejnych poteg 2
 #
 # lista=[ pow(2,e) for e in range(1,11)  ]
 # print(lista)
 
-#20. Korzystając z list składanych wygeneruj listę 10 elementow której każdy element również będzie listą.
+# 20. Korzystając z list składanych wygeneruj listę 10 elementow której każdy element również będzie listą.
 # Pierwszy element tej podlisty to numer potegi, a drugi to wartosc tej potegi dla liczby 2
 #
 # lista=[]
@@ -506,13 +506,13 @@
 # print(lista)
 # print(lista[2])
 
-#21. Napisz program który z pliku dane.csv wyświetli powiekszone imiona i nazwiska oraz wzrost i masę
+# 21. Napisz program który z pliku dane.csv wyświetli powiekszone imiona i nazwiska oraz wzrost i masę
 #
 # for linia in open('dane.csv',encoding='utf-8'):
 #     lista=linia.strip().split(';')
 #     print(lista[1].upper(),lista[2].upper(),lista[3],lista[4])
 
-#22. Korzystajac z list skladanych zaladuj do listy zawartosc pliku dane.csv w taki sposób
+# 22. Korzystajac z list skladanych zaladuj do listy zawartosc pliku dane.csv w taki sposób
 # by linie oczyścic z bialych znaków i rozbić na listy. Każdy z elementów listy sam   powinien byc listą.
 # Następnie przeiteruj po wyniku i wyświetl wszystkie elementy listy   linia po linii.
 #
@@ -531,7 +531,7 @@
 # for x in lista:
 #     print(x)
 
-#23. Dla każdego wpisu w pliku dane.csv wyświetl na konsoli dane o
+# 23. Dla każdego wpisu w pliku dane.csv wyświetl na konsoli dane o
 # id, imieniu, nazwisku, wzroscie,masie oraz obliczonym bmi zawodnika
 #
 # lista=[e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]
@@ -554,7 +554,7 @@
 #     print(*linia,round(float(linia[4])/pow(float(linia[3]),2),2))
 
 
-#for linia in [e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]: print(*linia,round(float(linia[4])/pow(float(linia[3]),2),2))
+# for linia in [e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]: print(*linia,round(float(linia[4])/pow(float(linia[3]),2),2))
 
 # lista=[6,5,4,1,2,5,8,9]
 # posortowane=sorted(lista)
@@ -581,7 +581,7 @@
 # posortowane=sorted(lista,reverse=True)
 # print(posortowane)
 
-#24. Wygeneruj listę 10 elementów o losowej wartości liczbowej, posortuj listę i wyświetl jej zawartość linia po linii
+# 24. Wygeneruj listę 10 elementów o losowej wartości liczbowej, posortuj listę i wyświetl jej zawartość linia po linii
 #
 # import random
 # lista=[random.randint(1,100) for e in range(10)]
@@ -649,7 +649,7 @@
 # for e in lista:
 #     print(e)
 
-#25.  Wczytaj do listy kolejne wiersze z pliku dane.csv.
+# 25.  Wczytaj do listy kolejne wiersze z pliku dane.csv.
 # Dane posortuj po nazwiskach i wyswietl linia po linii na konsoli.
 #
 # from operator import itemgetter
@@ -664,9 +664,9 @@
 # for e in lista:
 #     print(e)
 
-#przerwa do 14:32
+# przerwa do 14:32
 
-#26. Wyświetl na konsoli linia po linii dane z pliku dane.csv ale posortowane  malejąco wg. bmi
+# 26. Wyświetl na konsoli linia po linii dane z pliku dane.csv ale posortowane  malejąco wg. bmi
 #
 # lista=[e.strip().split(';') for e in open('dane.csv',encoding='utf-8')]
 # for l in lista: l.append( round(float(l[4])/pow(float(l[3]),2),2) )
@@ -712,7 +712,7 @@
 # for e in os.walk('e:\\'):
 #     print(e)
 
-#27.Napisz wyszukiwarkę plików która przyjmie od użytkownika szukaną frazę i katalog startowy.
+# 27.Napisz wyszukiwarkę plików która przyjmie od użytkownika szukaną frazę i katalog startowy.
 # Wyszukiwarka ma wyswietlić wszystkie pliki i katalogi zawierajace w nazwie szukaną frazę - wraz ze ścieżkami.
 # Wyszukiwarka ma być nieczuła na wielkość liter
 #
@@ -800,7 +800,7 @@
 # print(krotka)
 
 
-#krotka=(1,2,3,4)
+# krotka=(1,2,3,4)
 # for e in reversed(krotka):
 #     print(e)
 #
@@ -810,7 +810,7 @@
 # krotka=(1,2,3,4)
 # print(*krotka)
 
-#28. Stwórz dwie krotki. Jedna ma zawierać 10 losowych liczb zakresu 1-10,
+# 28. Stwórz dwie krotki. Jedna ma zawierać 10 losowych liczb zakresu 1-10,
 # druga 10 losowych liczb zakresu 11-20. Stwórz trzecią krotkę która ma zawierać dane z obu krotek.
 # Trzecią krotkę wypisz na konsoli
 #
@@ -824,12 +824,11 @@
 # krotka3=krotka1+krotka2
 # print(krotka3)
 
-#28. Napisz kod ktora wyświetli w postaci listy krotek zawartość pliku dane.csv
+# 28. Napisz kod ktora wyświetli w postaci listy krotek zawartość pliku dane.csv
 #
 # wynik=[tuple(e.strip().split(';')) for e in open('dane.csv',encoding='utf-8')]
 # for w in wynik:
 #     print(w)
-
 
 
 # for w in [tuple(e.strip().split(';')) for e in open('dane.csv',encoding='utf-8')]: print(w)
@@ -851,7 +850,7 @@
 # print(z1.difference(z2))
 # print(z2.difference(z1))
 
-#29. Wygeneruj dwa zestawy, dodaj do nich po 20 (w przypadku duplikatów lista może być mniejsza niż 20 elementów)
+# 29. Wygeneruj dwa zestawy, dodaj do nich po 20 (w przypadku duplikatów lista może być mniejsza niż 20 elementów)
 # losowych liczb z zakresu 1-40. Wyswietl ich sumę, różnicę i część wspólną
 #
 # z1={1,2,3,4}
@@ -869,7 +868,7 @@
 # print('roznica z2-z1=',z2.difference(z1))
 # print('czesc wspolna=',z1.intersection(z2))
 
-#30. Zduplikuj jeden z wierszy w pliku dane.csv.
+# 30. Zduplikuj jeden z wierszy w pliku dane.csv.
 # Napisz kod który zwróci do postaci listy krotek zawartość tego pliku z danymi bez powtórek.
 
 # wynik=list(set([tuple(e.strip().split(';')) for e in open('dane.csv',encoding='utf-8')]))
@@ -888,7 +887,7 @@
 #         plik.write(f'element numer {x}\n')
 # print('koniec')
 
-#31. Przetwórz plik dane.csv w taki sposób by w efekcie umieścić w pliku output.csv
+# 31. Przetwórz plik dane.csv w taki sposób by w efekcie umieścić w pliku output.csv
 # dane z pliku dane.csv wzbogacone o obliczone BMI, bez duplikatów i rozwiązując problem  podania
 # przecinka w miejsce kropki we wzroście i masie oraz problem z pustymi wierszami.
 #
@@ -936,13 +935,13 @@
 #
 # print(slownik['nieistniejacy_klucz'])
 
-#32. Stwórz plik ustawienia.conf i umieść w nim poniższe dane
+# 32. Stwórz plik ustawienia.conf i umieść w nim poniższe dane
 # encoding=utf-8
 # timezone=-2
 # color=black
 # Następnie wczytaj dane do słownika w ten sposób by pierwsza kolumna stanowila klucze a druga przypisane do nich wartości
-#. Przeiteruj po słowniku i wypisz klucze oraz przypisane do nich wartości
-#slownik['encoding']
+# . Przeiteruj po słowniku i wypisz klucze oraz przypisane do nich wartości
+# slownik['encoding']
 #
 # ustawienia=dict()
 # for f in [e.strip().split('=') for e in open('ustawienia.conf',encoding='utf-8') if len(e.strip())>0]:
@@ -953,7 +952,7 @@
 #
 # print(ustawienia['encoding'])
 
-#33. Wczytaj do słownika dane z pliku dane.csv tak by kluczem było imię sklejone z
+# 33. Wczytaj do słownika dane z pliku dane.csv tak by kluczem było imię sklejone z
 # nazwiskiem rozdzielone spacja, a pozostałe dane znalazły się w wartości
 #   jako krotka lub lista. Przeiteruj po slowniku i wyswietl jego zawartość.
 #
@@ -964,7 +963,7 @@
 # for k in slownik:
 #     print(k,slownik[k])
 
-#34. Napisz system który zwróci nam ilość wystąpień każdego ze słow w pliku w postaci listy krotek.
+# 34. Napisz system który zwróci nam ilość wystąpień każdego ze słow w pliku w postaci listy krotek.
 # [  (slowo,ilosc_wystapien),(slowo,ilosc_wystapien)   ]. Nazwa pliku ma zostać przekazana przez zmienną.
 #    Wynik powinien byc posortowany malejąco wg ilosci wystapien
 #    a) odczytaj wszystkie linie z pliku i rozbij na słowa. Każde ze słów dodaj do osobnej listy.
@@ -1003,7 +1002,7 @@
 # print(f'czas trwania to: {koniec-poczatek}s')
 
 
-#fuuuu rozwiązanie - tak nie robimy - to przyklad jak mozna to schrzanić
+# fuuuu rozwiązanie - tak nie robimy - to przyklad jak mozna to schrzanić
 
 #
 # import time
@@ -1037,9 +1036,9 @@
 # print(f'czas trwania to: {koniec-poczatek}s')
 
 
-#przerwa do 10:25
+# przerwa do 10:25
 
-#35. Wyświetl wynik dzielenia 1 przez kolejne liczby z zakresu -10 do 10.
+# 35. Wyświetl wynik dzielenia 1 przez kolejne liczby z zakresu -10 do 10.
 #
 # for x in range(-10,10):
 #     print(x,1/x)
@@ -1104,14 +1103,14 @@
 # #raise ZeroDivisionError
 # raise Exception('moja własna treść wyjątku')
 
-#36. Wyświetl wynik dzielenia 1 przez kolejne liczby z zakresu -10 do 10 w taki sposob
+# 36. Wyświetl wynik dzielenia 1 przez kolejne liczby z zakresu -10 do 10 w taki sposob
 # by w przypadku wyjatku nie przerywac dzialania petli a po prostu wyswietlic na konsoli informację
 # o błędzie i przejsc do dalszego przetwarzania
 
 # for x in range(-10,11):
 #     print(x,1/x)
 
-#złe rozwiązanie:
+# złe rozwiązanie:
 #
 # try:
 #     for x in range(-10,11):
@@ -1126,10 +1125,10 @@
 #         print(f'dzielenie przez zero przy x={x}')
 
 
-#37. Przetwórz wszystkie wiersze z dane.csv wyswietlajac na konsoli dane z wiersza wzbogacone o bmi.
+# 37. Przetwórz wszystkie wiersze z dane.csv wyswietlajac na konsoli dane z wiersza wzbogacone o bmi.
 # Nie podmieniaj przecinków etc w tekscie. W przypadku pojawienia się wyjątku dla
 # któregoś wiersza chcemy go zapisać (cały wiersz) w osobnym pliku bledy.csv wzbogacony o informację o rodzaju błędu
-#4;Andrzej;1,89;90;IOERROR
+# 4;Andrzej;1,89;90;IOERROR
 #
 # dane=[e.strip().split(';') for e in open('dane.csv',encoding='utf-8') if len(e.strip())>0]
 # for d in dane:
@@ -1141,7 +1140,7 @@
 #             plik.write(';'.join(d)+";"+str(e)+"\n")
 #
 
-#import time
+# import time
 
 # def timer(fun):
 #     def wewn(*args,**kwargs):
@@ -1193,7 +1192,7 @@
 # witacz('Andrzej','Klusiewicz')
 # witacz()
 
-#38. Stwórz funkcję która przyjmie wzrost i masę a zwróci zaokraglone do 2 miejsc po przecinku BMI.
+# 38. Stwórz funkcję która przyjmie wzrost i masę a zwróci zaokraglone do 2 miejsc po przecinku BMI.
 # W przypadku pojawienia się wyjątku, wyświetl na konsoli jaki wystąpił problem a z funkcji zwróć -1.
 
 # def bmi(wzrost,masa):
@@ -1207,9 +1206,9 @@
 # print(bmi('wysoki',84))
 # print(bmi(0,84))
 
-#39. Napisz funkcję która zwróci pod postacią listy krotek zawartość pliku
-  # którego nazwę przekażemy przez pierwszy argument funkcji. Plik ma być otwarty z kodowaniem
-  # podanym jako drugi argument funkcji. Jeśli kodowanie nie zostanie pdane ma przyjac utf-8
+# 39. Napisz funkcję która zwróci pod postacią listy krotek zawartość pliku
+# którego nazwę przekażemy przez pierwszy argument funkcji. Plik ma być otwarty z kodowaniem
+# podanym jako drugi argument funkcji. Jeśli kodowanie nie zostanie pdane ma przyjac utf-8
 
 
 # def dane(nazwa_pliku,kodowanie="utf-8"):
@@ -1222,12 +1221,12 @@
 # for w in wynik:
 #     print(w)
 
-#przerwa do 11:35
+# przerwa do 11:35
 
-#40. Napisz funkcję która bedzie w stanie przyjąć taką listę jaka jest zwracana
- # przez funkcję z poprzedniego ćwiczenia. Funkcja ta ma przeiterować po otrzymanej
- # liście i wyświetlić każdy element na konsoli. Odbierz dane z funkcji z ćwiczenia
- # poprzedniego i przekaz do nowo powstalej funkcji.
+# 40. Napisz funkcję która bedzie w stanie przyjąć taką listę jaka jest zwracana
+# przez funkcję z poprzedniego ćwiczenia. Funkcja ta ma przeiterować po otrzymanej
+# liście i wyświetlić każdy element na konsoli. Odbierz dane z funkcji z ćwiczenia
+# poprzedniego i przekaz do nowo powstalej funkcji.
 
 # def dane(nazwa_pliku,kodowanie="utf-8"):
 #     return [ tuple(e.strip().split(';')) for e in open(nazwa_pliku,encoding=kodowanie) if len(e.strip())>0]
@@ -1241,7 +1240,7 @@
 #
 # drukuj(dane('dane.csv'))
 
-#41. Napisz funkcję która przyjmie przez argumenty kwotę lokaty, oprocentowanie w skali roku, ilosc miesięcy.
+# 41. Napisz funkcję która przyjmie przez argumenty kwotę lokaty, oprocentowanie w skali roku, ilosc miesięcy.
 # Funkcja ma zwrócić zarobek na lokacie o podanych parametrach
 #
 # def lokata(kwota,oprocentowanie,ilosc_miesiecy):
@@ -1299,7 +1298,7 @@
 #     except StopIteration:
 #         break
 
-#42. Stwórz generator który będzie podawał kolejne dni tygodnia (poniedzialek,wtorek etc).
+# 42. Stwórz generator który będzie podawał kolejne dni tygodnia (poniedzialek,wtorek etc).
 # Przeiteruj po zwracanych przez niego wartosciach i wyswietl je na konsoli
 
 # def dni():
@@ -1314,7 +1313,7 @@
 # for d in dni():
 #     print(d)
 
-#43. Stworz generator ktory bedzie przyjmowal przez parametr ilosc elementow a nastepnie zwracal elementy o tresci
+# 43. Stworz generator ktory bedzie przyjmowal przez parametr ilosc elementow a nastepnie zwracal elementy o tresci
 # 'element o indeksie x'( gdzie x bedzie numerem podawanego elementu) czekajac 1 sekunde przed zwrotem kazdego elementu.
 #
 #
@@ -1329,7 +1328,7 @@
 #
 #
 
-#44. Stwórz generator który będzie podawał nieskończenie wiele liczb parzystych.
+# 44. Stwórz generator który będzie podawał nieskończenie wiele liczb parzystych.
 # Przetestuj go pobierając z niego kolejne wartości i wyświetlając je na konsoli.
 
 # def parzyste(): #złe rozwiązanie
@@ -1351,7 +1350,7 @@
 # for p in parzyste():
 #     print(p)
 
-#45.     • (do użycia np. w wyszukiwarce - szukaj aż znajdziesz ale nie wczytuj całości od razu)
+# 45.     • (do użycia np. w wyszukiwarce - szukaj aż znajdziesz ale nie wczytuj całości od razu)
 # Stwórz generator który będzie podawał kolejne linie z pliku tekstowego którego nazwę podamy przez  argument generatora.
 # Generator nie powinien wczytywać całego pliku od razu, a w miarę żądania kolejnych elementów powinien wczytywać
 # i zwracac kolejne linie z pliku . Użycie funkcji readlines() na obiekcie pliku będzie
@@ -1373,7 +1372,7 @@
 # for w in open('dane.csv').readlines():
 #     print(w)
 
-#print(len(open('dane.csv').readlines()))
+# print(len(open('dane.csv').readlines()))
 
 # def czytacz(nazwa_pliku):
 #     plik=open(nazwa_pliku,encoding='utf-8')
@@ -1394,7 +1393,7 @@
 # for x in range(1,1000):
 #     suma+=x
 
-#przerwa obiadowa do 13:00
+# przerwa obiadowa do 13:00
 #
 # import time
 # def timer(fun):
@@ -1442,7 +1441,7 @@
 #
 # funkcja('cos do mojego parametru',1,2,3,4,param1='uuuuu')
 
-#46. Stwórz funkcję która wydrukuje na konsoli sumę wartości przekazanych do niej jako *args
+# 46. Stwórz funkcję która wydrukuje na konsoli sumę wartości przekazanych do niej jako *args
 #
 # lista=[1,2,3,4,5]
 # print(sum(lista))
@@ -1455,7 +1454,7 @@
 #
 # suma_args(1,5,6,3,2)
 
-#47. Stwórz funkcję która przyjmie nieokreśloną liczbę elementów przez argument, a następnie wypisze
+# 47. Stwórz funkcję która przyjmie nieokreśloną liczbę elementów przez argument, a następnie wypisze
 # na konsoli ilość otrzymanych elementów. Poniżej informacji o ilości otrzymanych elementów wyświetl w osobnych
 # liniach każdy argument oraz jego typ.
 #
@@ -1466,7 +1465,7 @@
 #
 # cw47(1,'koza','costam',5.5)
 
-#48.(kolejnosc argumentów gdy jest args) Stwórz funkcję która przyjmie przez argument mnożnik oraz elementy typu args.
+# 48.(kolejnosc argumentów gdy jest args) Stwórz funkcję która przyjmie przez argument mnożnik oraz elementy typu args.
 # Funkcja ma dla kazdego elementu typu args wyswietlic na konsoli wynik jego mnożenia przez mnożnik
 
 # def mnozenie(mnoznik,*args):
@@ -1475,7 +1474,7 @@
 #
 # mnozenie(10,1,2,3,4,5)
 
-#49. Stworz funkcje "config" ktora bedzie otrzymywala argumenty kwargs bedace ustawieniami.
+# 49. Stworz funkcje "config" ktora bedzie otrzymywala argumenty kwargs bedace ustawieniami.
 # Funkcja ta ma zapisac podane argumenty do pliku config.csv w 2 kolumnach z czego pierwsza jest nazwa argumentu
 # a druga jego wartoscia. Jesli dane argument juz istnieje w pliku to trzeba bedzie tylko zaktualizowac jego wartosc,
 # jesli jeszcze go nie ma to trzeba go bedzie dodac do pliku.
@@ -1537,7 +1536,7 @@
 # t.start()
 # print('dalej coś...')
 
-#50. Stwórz dwie funkcje - jedna ma zwracać powiększony tekst który otrzyma przez argument,
+# 50. Stwórz dwie funkcje - jedna ma zwracać powiększony tekst który otrzyma przez argument,
 # druga analogicznie ale pomniejszony. Dodaj funkcję która będzie w stanie przyjąć przez argument inną
 # funkcję oraz ciąg tekstowy do obróbki który następnie po obrobieniu przez funkcję podaną jako
 # argument zostanie wyświetlony na konsoli
@@ -1554,7 +1553,7 @@
 # cw50(powieksz,'siała BABA mak')
 # cw50(pomniejsz,'siała BABA mak')
 
-#51. Stworz funkcje ktora bedzie drukowala na konsoli dane otrzymane przez pierwszy argument
+# 51. Stworz funkcje ktora bedzie drukowala na konsoli dane otrzymane przez pierwszy argument
 # obrobione uprzednio przez wyrazenie lambda podane jako drugi argument.
 
 # def cw50(fun,tekst):
@@ -1564,7 +1563,7 @@
 # cw50(lambda x:x.upper(),'siała BABA mak')
 # cw50(lambda x:x.lower(),'siała BABA mak')
 
-#52. Stwórz funkcję "parse" która będzie otrzymywała przez argumenty wartosc tekstową oraz *args funkcji.
+# 52. Stwórz funkcję "parse" która będzie otrzymywała przez argumenty wartosc tekstową oraz *args funkcji.
 # Funkcja ta ma zastosować każdą z otrzymanych przez *args funkcji na wartości tekstowej którą następnie wypisze na konsoli.
 # Dodaj funkcję "powieksz" i "podziel" które mają zwracać otrzymane przez argument dane odpowiednio po powiększeniu
 # i podzieleniu tekstu na słowa. Wywołaj funkcję "parse" przekazując do niej ciąg tekstowy składający
@@ -1603,8 +1602,8 @@
 #
 # fun(String xxx)
 
-#zpomoca(1234)
-#zpomoca('dupa')
+# zpomoca(1234)
+# zpomoca('dupa')
 #
 #
 # def zewnetrzna():
@@ -1615,7 +1614,7 @@
 # f=zewnetrzna()
 # f()
 
-#53. Stwórz funcję która będzie posiadała dwie funkcje wewnętrzne.
+# 53. Stwórz funcję która będzie posiadała dwie funkcje wewnętrzne.
 # Jedna z tych funkcji ma powiekszac i zwracac otrzymany ciag znakow, druga pomniejszac i zwracac otrzymany ciąg znaków.
 # Funkcja zewnętrzna ma zwracać funkcję powiększającą gdy zostanie jej przez argument przekazana wartosc 1 i
 # funkcję pomniejszającą gdy otrzyma wartość 2. Odbierz obiekt funkcji wewnętrznej poprzez wywołanie funkcji zewnętrznej
@@ -1643,7 +1642,7 @@
 # funkcja=oddaj_funkcje(3)
 # print(funkcja('siała BABA mak'))
 
-#przerwa do 14:24
+# przerwa do 14:24
 #
 # class Whatever{
 #     public static void main(String args[]){
@@ -1665,11 +1664,11 @@
 # fun=dekorator(funkcja)
 # fun()
 
-#@dekorator
+# @dekorator
 # def funkcja():
 #     print('hello...')
 
-#funkcja()
+# funkcja()
 
 #
 # def opakowanie(fun):
@@ -1738,7 +1737,7 @@
 #     return "koza"
 # print(oddaj_koze())
 
-#54. Stwórz funkcję której zadaniem będzie poczekanie 3 sekundy i wypisanie na konsoli komunikatu.
+# 54. Stwórz funkcję której zadaniem będzie poczekanie 3 sekundy i wypisanie na konsoli komunikatu.
 # Dodaj dekorator który zliczy czas wykonywania tej funkcji. Pobranie aktualnego czasu to: "time.time()",
 # wstrzymanie na 3 sekundy: "time.sleep(3)"
 #
@@ -1766,7 +1765,7 @@
 # x=spioch()
 # print(f'odebrane={x}')
 
-#55. Stwórz dekodator który będzie zawsze zaokrąglał do 2 miejsc po przecinku wynik zwracany przez dekordowaną funkcję.
+# 55. Stwórz dekodator który będzie zawsze zaokrąglał do 2 miejsc po przecinku wynik zwracany przez dekordowaną funkcję.
 #
 # def dodatkowy(fun):
 #     def wewnetrzna(*args,**kwargs):
@@ -1803,7 +1802,7 @@
 # def widok_szczegolow_uczestnika():
 #     pass
 
-#56.    • Stwórz dekorator który będzie rejestrował do pliku loga wszystkie wywołania dekorowanej funkcji
+# 56.    • Stwórz dekorator który będzie rejestrował do pliku loga wszystkie wywołania dekorowanej funkcji
 # z informacją o nazwie dekorowanej funkcji, dacie i czasie jej wywołania oraz argumentach przekazanych
 # do dekorowanej funkcji. Log ma być w formacie CSV. Same argumenty powinny być rejestrowane w jednej kolumnie razem.
 # Pobranie nazwy funkcji: fun.__name__,
@@ -1851,7 +1850,7 @@
 # funkcja(3)
 
 
-#fun.__name__
+# fun.__name__
 # import time
 #
 # def logger(fun):
@@ -1909,21 +1908,21 @@
 # from dao.invoice_dao import *
 # print(get_all())
 
-#import dao.client_dao
-#print(dao.client_dao.get_all())
-#import modul
+# import dao.client_dao
+# print(dao.client_dao.get_all())
+# import modul
 
-#import this
+# import this
 
-#import pakiecik.modul_pakietowy
+# import pakiecik.modul_pakietowy
 
-#57. Stwórz pakiet zawierający moduł który bedzie zawierał funkcję przyjmującą wzrost i masę a zwracającą bmi.
+# 57. Stwórz pakiet zawierający moduł który bedzie zawierał funkcję przyjmującą wzrost i masę a zwracającą bmi.
 # Zaimportuj i wywołaj tę funkcję w taki sposób by przy jej wywołaniu nie trzeba było  podawać nazwy pakietu ani modułu.
 #
 # from pakiet.modul import bmi
 # print(bmi(1.76,67))
 
-#Postman
+# Postman
 #
 # import requests
 # response=requests.get('https://jsystems.pl/static/blog/python/dane.json')
@@ -1948,6 +1947,53 @@
 # response=requests.post('https://jsystems.pl/static/blog/python/dane.json',data=data, headers={"Content-Type":"application/json"})
 # print(response.status_code)
 
-#58. z usługi sieciowej http://jsystems.pl/Universe/samaTabelka.do pobierz informację o szkoleniach.
+# 58. z usługi sieciowej http://jsystems.pl/Universe/samaTabelka.do pobierz informację o szkoleniach.
 # na konsoli wyswietl tytuly, miasta i daty wszystkich szkolen które w tytule mają malymi badz duzymi
 # literami "Python","Java", "UML" i status terminu gwarantowanego (pole terminyGwarantowany=1)
+#
+# import requests
+# response=requests.get('http://jsystems.pl/Universe/samaTabelka.do')
+# if response.status_code==200:
+#     data=response.json()
+#     for t in data:
+#         print(t)
+# else:
+#     print(f'operacja nieudana. Status code={response.status_code}')
+
+#
+# import requests
+#
+# response = requests.get('http://jsystems.pl/Universe/samaTabelka.do')
+# if response.status_code == 200:
+#     data = response.json()
+#     for t in data:
+#         if ('java' in t['tytul_szkolenia'].lower() \
+#             or 'python' in t['tytul_szkolenia'].lower() \
+#             or 'uml' in t['tytul_szkolenia'].lower()) and t['terminyGwarantowany']==1:
+#             print(t['tytul_szkolenia'],t['miasto'],t['termin'])
+# else:
+#     print(f'operacja nieudana. Status code={response.status_code}')
+
+
+
+# import requests
+# response = requests.get('http://jsystems.pl/Universe/samaTabelka.do')
+# if response.status_code == 200:
+#     data = response.json()
+#     for t in [t for t in response.json() if ('java' in t['tytul_szkolenia'].lower() or 'python' in t['tytul_szkolenia'].lower() or 'uml' in t['tytul_szkolenia'].lower()) and t['terminyGwarantowany']==1]:
+#         #print(t['tytul_szkolenia'],t['miasto'],t['termin'])
+#         print(f"{t['tytul_szkolenia']} {t['miasto']} {t['termin']}")
+# else:
+#     print(f'operacja nieudana. Status code={response.status_code}')
+
+#BeautifulSoup https://blog.jsystems.pl/show_post/Parsowanie_stron_internetowych_z_u%C5%BCyciem_Beautiful_Soup/
+#Wyrażenia regularne https://blog.jsystems.pl/show_post/Wyra%C5%BCenia_regularne/
+
+#przerwa do 9:58
+
+#pgadmin4
+
+#DBeaver
+
+import psycopg2
+connection=psycopg2.connect(host='localhost',database='aplikacja',port=5432, user='aplikacja', password='oracle')
