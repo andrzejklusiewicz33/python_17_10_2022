@@ -2044,3 +2044,13 @@
 #     connection.commit()
 
 #60. Załaduj do tabelki zawodnicy wszystkie dane z pliku dane.csv
+#
+# import psycopg2
+# with psycopg2.connect(host='localhost',database='aplikacja',port=5432, user='aplikacja', password='oracle') as connection:
+#     cursor=connection.cursor()
+#     for e in [e.strip().split(';') for e in open('dane.csv',encoding='utf-8') if len(e.strip())>0]:
+#         sql=f"insert into zawodnicy values ({e[0]},'{e[1]}','{e[2]}',{e[3]},{e[4]})"
+#         print(sql)
+#         cursor.execute(sql)
+#     connection.commit()
+
