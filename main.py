@@ -2500,3 +2500,76 @@
 # na nim zarówno metodę jedz() jak i strzelaj(). Zwróć uwagę na to jak trzeba wywołać konstruktor
 # obiektu klasy Czolg. Sprawdz czy zmiana kolejnosci dziedziczenia wplywa na sposob wywołania konstruktora.
 # Sprawdz czy dodanie bezparametrowego __init__ do klasy Czolg zmienia zachowanie.
+#
+# class Samochod:
+#     def __init__(self,marka,model,rejestracja):
+#         self.marka=marka
+#         self.model=model
+#         self.rejestracja=rejestracja
+#     def jedz(self):
+#         print('wrooom')
+#
+# class Dzialo:
+#     # def __init__(self):
+#     #     pass
+#     def strzelaj(self):
+#         print('jeb jeb jeb z dzidy laserowej') #pozdrowienia dla fanów Kapitana Bomby ;)
+#
+# class Czolg(Dzialo,Samochod):
+#     def __init__(self):
+#         pass
+#
+# c=Czolg()
+
+#przerwa do 14:28
+
+# class PostgresqlDao:
+#     def save(self,something):
+#         print(f'zapis do bazy PostgreSQL obiektu={something}')
+#
+# class OracleDao:
+#     def save_this_shit(self,something):
+#         print(f'zapis do bazy Oracle obiektu={something}')
+#
+# class Controller:
+#     def __init__(self,dao):
+#         self.dao=dao
+#     def logic(self):
+#         self.dao.save("obiekt jakiś")
+#
+#
+# #dao=PostgresqlDao()
+# dao=OracleDao()
+# c=Controller(dao)
+# c.logic()
+#
+# from abc import ABC,abstractmethod
+# class Dao(ABC):
+#     @abstractmethod
+#     def save(self,something):
+#         pass
+# class PostgresqlDao(Dao):
+#     def save(self,something):
+#         print(f'zapis do bazy PostgreSQL obiektu={something}')
+#
+# class OracleDao(Dao):
+#     def save(self,something):
+#         print(f'zapis do bazy Oracle obiektu={something}')
+#
+# class Controller:
+#     def __init__(self,dao):
+#         self.dao=dao
+#     def logic(self):
+#         self.dao.save("obiekt jakiś")
+#
+# dao=OracleDao()
+# #dao=PostgresqlDao()
+# # dao=OracleDao()
+# c=Controller(dao)
+# c.logic()
+
+#70. Stwórz klasę abstrakcyjną Restauracja która będzie posiadała abstrakcyjną metodę "serwuj_danie".
+# Stwórz klasy "RestauracjaChinska", "RestauracjaWloska" i "RestaruracjaPolska". Wymuś posiadanie
+# implementacji metody abstrakcyjnej "serwuj_danie" we wszystkich tych klasach ale o różnej implementacji.
+# Powołaj do życia obiekty tych klas, a następnie na rzecz każdego z
+# tych obiektów wywołaj funkcję serwuj_danie.
