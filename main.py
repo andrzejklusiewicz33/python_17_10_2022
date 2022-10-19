@@ -2054,3 +2054,42 @@
 #         cursor.execute(sql)
 #     connection.commit()
 
+#przerwa do 11:34
+#
+# class Person:
+#     first_name=None
+#     last_name=None
+#
+# p1=Person()
+# p1.first_name="Andrzej"
+# p1.last_name='Klusiewicz'
+#
+# p2=Person()
+# p2.first_name='Jan'
+# p2.last_name='Nowak'
+#
+# print(p1.first_name,p1.last_name)
+# print(p2.first_name,p2.last_name)
+
+#
+# class Person:
+#     first_name=None
+#     last_name=None
+#     def show(self):
+#         print(f'first_name={self.first_name}, last_name={self.last_name}')
+#
+# p1=Person()
+# p1.first_name="Andrzej"
+# p1.last_name='Klusiewicz'
+#
+# p2=Person()
+# p2.first_name='Jan'
+# p2.last_name='Nowak'
+# #
+# p1.show()
+# p2.show()
+
+#61. Stwórz klasę "Samochod" posiadającą pola "marka", "model", "rejestracja".
+# Klasa ta powinna zawierać też metodę "wyswietl" wypisującą dane z obiektu na konsoli
+# Stwórz dwa obiekty tej klasy (uzupełnij je danymi)
+# i korzystajac  z metody "wyświetl" wyswietl na konsoli ich zawartość.
