@@ -2249,3 +2249,53 @@
 # Niech każdy obiekt klasy ustawienia podczas jego tworzenia wczytuje do tego słownika zawartość
 # pliku konfiguracyjnego w taki sposób, by pierwsza kolumna stanowiła klucze dla słownika a druga wartości.
 # Stwórz obiekt tej klasy i wyświetl jakie mamy ustawione encoding w konfiguracji (pobierajac z obiektu)
+#
+# class Config:
+#     def __init__(self):
+#         self.dc=dict()
+#         for e in [e.strip().split('=') for e in open('ustawienia.conf',encoding='utf-8')]:
+#             self.dc[e[0]]=e[1]
+#
+#
+# c=Config()
+# print(c.dc)
+# print(c.dc['encoding'])
+#
+# class Person:
+#     def __init__(self,first_name,last_name):
+#         self.first_name = first_name
+#         self.last_name = last_name
+#
+#     def __str__(self):
+#       return f'first_name={self.first_name}, last_name={self.last_name}'
+#     def show(self):
+#         print(f'first_name={self.first_name}, last_name={self.last_name}')
+#
+# p=Person('Andrzej','Klusiewicz')
+# print(p)
+#p.show()
+
+#
+# class Person:
+#     def __init__(self,first_name,last_name):
+#         self.first_name = first_name
+#         self.last_name = last_name
+#     def __str__(self):
+#       #return f'first_name={self.first_name}, last_name={self.last_name}'
+#         return str(self.__dict__)
+#     def show(self):
+#         print(f'first_name={self.first_name}, last_name={self.last_name}')
+#
+# p=Person('Andrzej','Klusiewicz')
+# print(p)
+
+#66. Przesłoń metodę "__str__" w klasie "Samochod" i przerób metodę "wyswietl"
+# w taki sposób by korzystała z metody "__str__"
+
+class Samochod:
+    def __init__(self,marka='nie podano',model='nie podano',rejestracja='nie podano'):
+        self.marka=marka
+        self.model=model
+        self.rejestracja=rejestracja
+    def wyswietl(self):
+        print(f'marka={self.marka}, model={self.model}, rejestracja={self.rejestracja}')
