@@ -2655,3 +2655,33 @@
 
 #72.Stwórz iterator który będzie zwracał nazwy kolejnych miesięcy.
 # Iterator powinien też posiadać funkcję "restart" która spowoduje rozpoczęcie podawania miesięcy od początku.
+#
+# class Miesiace:
+#     miesiace=['styczen','luty','marzec','kwiecien','maj','czerwiec','lipiec','sierpien','wrzesien',
+#               'pazdziernik','listopad','grudzien']
+#     jestem=-1
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         self.jestem+=1
+#         if self.jestem==len(self.miesiace):
+#             raise StopIteration()
+#         return self.miesiace[self.jestem]
+#
+#     def reset(self):
+#         self.jestem=-1
+# #
+#
+# miesiace=Miesiace()
+# for x in range(4):
+#     print(next(miesiace))
+# print('#####################')
+# miesiace.reset()
+# for x in range(4):
+#     print(next(miesiace))
+# # for m in Miesiace():
+# #     print(m)
+
+#73. Stworz w osobnym module funkcje ktora bedzie zwracala liste 100 losowych liczb z zakresu 1-100.
+# Dodaj testy jednostkowe ktory beda sprawdzaly czy funkcja zwrocila 100 elementow, czy wszystkie mieszcza
+# sie w zakresie 1-100 i czy wszystkie zwracane wartosci sa liczbami calkowitymi
