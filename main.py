@@ -2636,4 +2636,22 @@
 # for x in range(3):
 #     print(next(i))
 
-#71. Stwórz iterator który bedzie podawał nieskończenie wiele kolejnych potęg liczby dwa 
+#71. Stwórz iterator który bedzie podawał nieskończenie wiele kolejnych potęg liczby dwa
+#
+# class  NieskonczonePotegi:
+#     x=0
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         self.x+=1
+#         return pow(2,self.x)
+#
+# # np=NieskonczonePotegi()
+# # for e in np:
+# #     print(e)
+#
+# for e in NieskonczonePotegi():
+#     print(e)
+
+#72.Stwórz iterator który będzie zwracał nazwy kolejnych miesięcy.
+# Iterator powinien też posiadać funkcję "restart" która spowoduje rozpoczęcie podawania miesięcy od początku.
