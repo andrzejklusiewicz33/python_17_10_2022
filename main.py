@@ -2093,3 +2093,47 @@
 # Klasa ta powinna zawierać też metodę "wyswietl" wypisującą dane z obiektu na konsoli
 # Stwórz dwa obiekty tej klasy (uzupełnij je danymi)
 # i korzystajac  z metody "wyświetl" wyswietl na konsoli ich zawartość.
+#
+# class Samochod:
+#     marka=None
+#     model=None
+#     rejestracja=None
+#     def wyswietl(self):
+#         print(f'marka={self.marka}, model={self.model}, rejestracja={self.rejestracja}')
+#
+#
+# s1=Samochod()
+# s1.marka='Polonez'
+# s1.model='Caro'
+# s1.rejestracja='W0 ZABYTEK'
+#
+# s2=Samochod()
+# s2.marka='Czarny'
+# s2.model='Ciągnik'
+# s2.rejestracja='2400'
+#
+# s1.wyswietl()
+# s2.wyswietl()
+#
+# class ABC:
+#     def wypisz_cos(self,cos):
+#         print(cos)
+#
+# abc=ABC()
+# abc.wypisz_cos('terefere kuku')
+
+
+#62. Zadbaj o to by klasa Samochod posiadała metodę pozwalającą ustawić wartości wszystkich pól.
+# Jej przykładowe wywołanie: s1.ustaw_wartosci(‘Renault’,’Kadjar’,’WE968RP’)
+class Samochod:
+    marka=None
+    model=None
+    rejestracja=None
+    def wyswietl(self):
+        print(f'marka={self.marka}, model={self.model}, rejestracja={self.rejestracja}')
+
+
+s1=Samochod()
+s1.ustaw('Audi','A4','ABC 1234')
+s2=Samochod()
+s2.ustaw('BMW','e46','WWL 1234')
