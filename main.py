@@ -2309,5 +2309,5 @@
 
 #przerwa obiadowa do 13:05
 
-#67. Załaduj dane z pliku zawodnicy.csv do postaci listy obiektów.
+#67. Załaduj dane z pliku dane.csv do postaci listy obiektów.
 # Następnie przeiteruj po tej liście i wyświetl zawartość każdego z obiektów
