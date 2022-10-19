@@ -2291,11 +2291,23 @@
 
 #66. Przesłoń metodę "__str__" w klasie "Samochod" i przerób metodę "wyswietl"
 # w taki sposób by korzystała z metody "__str__"
+#
+# class Samochod:
+#     def __init__(self,marka='nie podano',model='nie podano',rejestracja='nie podano'):
+#         self.marka=marka
+#         self.model=model
+#         self.rejestracja=rejestracja
+#     def __str__(self):
+#         return str(self.__dict__)
+#     def wyswietl(self):
+#         print(self.__str__())
+#
+# s=Samochod('A','B','C')
+# print(s)
+# s.wyswietl()
+# #PEP8
 
-class Samochod:
-    def __init__(self,marka='nie podano',model='nie podano',rejestracja='nie podano'):
-        self.marka=marka
-        self.model=model
-        self.rejestracja=rejestracja
-    def wyswietl(self):
-        print(f'marka={self.marka}, model={self.model}, rejestracja={self.rejestracja}')
+#przerwa obiadowa do 13:05
+
+#67. Załaduj dane z pliku zawodnicy.csv do postaci listy obiektów.
+# Następnie przeiteruj po tej liście i wyświetl zawartość każdego z obiektów
