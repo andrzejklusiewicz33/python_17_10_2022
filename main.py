@@ -2022,3 +2022,25 @@
 #59. Stwórz tabelkę pracownicy. Niech posiada ona kolumny id_pracownika,imię,nazwisko,telefon. Wstaw
 # 3 pracowników do tabeli i upewnij się że się tam znajdują. Napisz funkcję która przyjmie przez parametr
 # nazwę pliku do którego zapisze wszystkie wiersze z tabelki pracownicy w fomacie csv.
+#
+# import psycopg2
+# def export(filename):
+#     with psycopg2.connect(host='localhost',database='aplikacja',port=5432, user='aplikacja', password='oracle') as connection:
+#         cursor=connection.cursor()
+#         cursor.execute('select * from pracownicy')
+#         with open(filename,encoding='utf-8',mode='w') as file:
+#             for w in cursor:
+#                 file.write(f'{w[0]};{w[1]};{w[2]};{w[3]}\n')
+#
+# export('pracownicy.csv')
+#
+# import psycopg2
+# with psycopg2.connect(host='localhost',database='aplikacja',port=5432, user='aplikacja', password='oracle') as connection:
+#     cursor=connection.cursor()
+#     imie='Tomasz'
+#     nazwisko='Janicki'
+#     telefon=333
+#     cursor.execute(f"insert into pracownicy(imie,nazwisko, telefon) values ('{imie}','{nazwisko}','{telefon}')")
+#     connection.commit()
+
+#60. Załaduj do tabelki zawodnicy wszystkie dane z pliku dane.csv
