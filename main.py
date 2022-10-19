@@ -1915,10 +1915,39 @@
 
 #import this
 
-import pakiecik.modul_pakietowy
+#import pakiecik.modul_pakietowy
 
 #57. Stwórz pakiet zawierający moduł który bedzie zawierał funkcję przyjmującą wzrost i masę a zwracającą bmi.
 # Zaimportuj i wywołaj tę funkcję w taki sposób by przy jej wywołaniu nie trzeba było  podawać nazwy pakietu ani modułu.
 #
 # from pakiet.modul import bmi
 # print(bmi(1.76,67))
+
+#Postman
+#
+# import requests
+# response=requests.get('https://jsystems.pl/static/blog/python/dane.json')
+# if response.status_code==200:
+#     data=response.json()
+#     print(data['nazwisko'])
+#     address=data['adres']
+#     print(address['miasto'])
+#     print(data['adres']['miasto'])
+#     languages=data['jezyki']
+#     for l in languages:
+#         print(l)
+#     for e in data['jezyki']:
+#         print(e)
+# else:
+#     print(f'Nie pobrano danych. Odpowiedź serwera: {response.status_code}')
+#
+# import requests
+# data=dict()
+# data['adres']='Żelazna 59 Warszawa'
+# data['nazwa_firmy']='JSystems'
+# response=requests.post('https://jsystems.pl/static/blog/python/dane.json',data=data, headers={"Content-Type":"application/json"})
+# print(response.status_code)
+
+#58. z usługi sieciowej http://jsystems.pl/Universe/samaTabelka.do pobierz informację o szkoleniach.
+# na konsoli wyswietl tytuly, miasta i daty wszystkich szkolen które w tytule mają malymi badz duzymi
+# literami "Python","Java", "UML" i status terminu gwarantowanego (pole terminyGwarantowany=1)
